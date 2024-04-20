@@ -2,7 +2,7 @@
 
 public class PlayerController : MonoBehaviour
 {
-    //public Animator animator;
+    public Animator animator;
 
     public float Gravity = 9.8f;
     public float JumpForce = 7;
@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
             runDirection = 4;
         }
 
-        //animator.SetInteger("Run direction", runDirection);
+        animator.SetInteger("Run direction", runDirection);
     }
 
     private void JumpUpdate()
