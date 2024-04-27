@@ -10,7 +10,11 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("VillageScene");
     }
 
-    
+    public void TitlesOpen()
+    {
+        SceneManager.LoadScene("GameEndScene");
+        AudioListener.volume = 1;
+    }
 
     public void Quit()
     {
