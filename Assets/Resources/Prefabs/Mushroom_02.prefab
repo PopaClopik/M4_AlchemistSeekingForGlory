@@ -89,7 +89,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5440707293445741943}
   - component: {fileID: 2572748512188004591}
-  - component: {fileID: -2713316507878654275}
+  - component: {fileID: 6638610154426619187}
+  - component: {fileID: 501509352}
+  - component: {fileID: 501509353}
   m_Layer: 0
   m_Name: Mushroom_02
   m_TagString: Untagged
@@ -136,7 +138,7 @@ LODGroup:
     renderers:
     - renderer: {fileID: 174724175454802206}
   m_Enabled: 1
---- !u!114 &-2713316507878654275
+--- !u!114 &6638610154426619187
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,16 +147,43 @@ MonoBehaviour:
   m_GameObject: {fileID: 5440707293445505367}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a76fad37a6cfafc438f3fdf3495fd9e1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b21cf00e88191942835f07ac36bb5f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameItem: Mushroom2
-  id: 2
-  countItem: 0
-  isStacable: 1
-  descriptionItem: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439 \u0433\u0440\u0438\u0431"
-  pathIcon: Icon/Mushroom_02
-  PathPrefab: Prefabs/Mushroom_02
+  itemScriptableObject: {fileID: 11400000, guid: 36ee4a89f280e954dae17170a874c274,
+    type: 2}
+  amount: 1
+--- !u!54 &501509352
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5440707293445505367}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &501509353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5440707293445505367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b21cf00e88191942835f07ac36bb5f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemScriptableObject: {fileID: 11400000, guid: 36ee4a89f280e954dae17170a874c274,
+    type: 2}
+  amount: 1
 --- !u!1 &8258542438926114849
 GameObject:
   m_ObjectHideFlags: 0
