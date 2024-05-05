@@ -11,6 +11,12 @@ public class StonesCaster: MonoBehaviour
 
     public float force = 10;
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
