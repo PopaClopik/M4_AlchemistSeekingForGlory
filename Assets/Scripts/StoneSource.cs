@@ -7,7 +7,7 @@ public class StoneSource : MonoBehaviour
     public Transform targetPoint;
     public Camera cameraLink;
     public float targetInSkydistance;
-
+    
     private void Update()
     {
         var ray = cameraLink.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));

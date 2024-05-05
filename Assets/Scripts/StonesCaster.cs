@@ -10,11 +10,14 @@ public class StonesCaster: MonoBehaviour
     public Transform stoneSourceTransform;
 
     public float force = 10;
+    //public float lifeTime;
 
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        //Invoke("DestroyspawnedStone", lifeTime);
     }
 
     private void Update()

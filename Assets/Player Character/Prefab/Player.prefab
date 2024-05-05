@@ -188,6 +188,7 @@ MonoBehaviour:
   - {fileID: 6169084860048578116, guid: 3a938e29ca10d51439a2b99062f7ba80, type: 3}
   stoneSourceTransform: {fileID: 3591204177325236722}
   force: 630
+  lifeTime: 3
 --- !u!1 &2843074235588298061
 GameObject:
   m_ObjectHideFlags: 0
