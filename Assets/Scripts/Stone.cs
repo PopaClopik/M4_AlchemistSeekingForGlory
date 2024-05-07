@@ -10,4 +10,9 @@ public class Stone : MonoBehaviour
     {
         Invoke("DestroyStone", lifeTime);
     }
+
+    private void DestroyStone()
+    {
+        Destroy(gameObject);
+    }
 }
