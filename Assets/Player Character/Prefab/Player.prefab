@@ -389,6 +389,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 100
   valueRectTransform: {fileID: 3354211318184446338}
+  gameplayUI: {fileID: 2428737147804643355}
+  gameOverScreen: {fileID: 7442287109145071242}
 --- !u!1 &2843074235588298061
 GameObject:
   m_ObjectHideFlags: 0
