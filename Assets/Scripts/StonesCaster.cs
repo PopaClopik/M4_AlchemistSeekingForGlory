@@ -6,18 +6,15 @@ public class StonesCaster: MonoBehaviour
 {
     public List<GameObject> Stones = new List<GameObject>();
 
-    //public Rigidbody grenadePrefab;
     public Transform stoneSourceTransform;
 
     public float force = 10;
-    //public float lifeTime;
 
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        //Invoke("DestroyspawnedStone", lifeTime);
     }
 
     private void Update()

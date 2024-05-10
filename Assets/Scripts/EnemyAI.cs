@@ -63,7 +63,7 @@ public class EnemyAI : MonoBehaviour
     {
 
         _isPlayerNoticed = false;
-        //if (!_playerHealth.IsAlive()) return;
+        if (!_playerHealth.IsAlive()) return;
 
         var direction = player.transform.position - transform.position;
         if (Vector3.Angle(transform.forward, direction) < viewAngle)

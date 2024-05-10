@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Stone : MonoBehaviour
 {
+    public float damage = 20;
     public float lifeTime;
    
     void Start()

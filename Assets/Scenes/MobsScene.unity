@@ -731,5 +731,10 @@ PrefabInstance:
       propertyPath: patrolPoints.Array.data[3]
       value: 
       objectReference: {fileID: 940594590}
+    - target: {fileID: 9220793985905219887, guid: 6b0d2207d05b31648a67ad12fa473503,
+        type: 3}
+      propertyPath: m_Speed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b0d2207d05b31648a67ad12fa473503, type: 3}
