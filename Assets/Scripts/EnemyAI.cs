@@ -61,23 +61,26 @@ public class EnemyAI : MonoBehaviour
 
     private void NoticePlayerUpdate()
     {
-
         _isPlayerNoticed = false;
         if (!_playerHealth.IsAlive()) return;
 
         var direction = player.transform.position - transform.position;
         if (Vector3.Angle(transform.forward, direction) < viewAngle)
         {
+            Debug.Log("1");
             RaycastHit hit;
             if (Physics.Raycast(transform.position + Vector3.up, direction, out hit))
             {
+                Debug.Log("2");
                 if (hit.collider.gameObject == player.gameObject)
                 {
+                    Debug.Log("3");
                     _isPlayerNoticed = true;
                 }
             }
         }
     }
+
     private void PatrolUpdate()
     {
         if (!_isPlayerNoticed)
