@@ -35,9 +35,9 @@ public class EnemyAI : MonoBehaviour
     private void Update()
     {
         NoticePlayerUpdate();
-        ChaseUpdate();
+        //ChaseUpdate();
         AttackUpdate();
-        PatrolUpdate();
+        //PatrolUpdate();
 
     }
     private void AttackUpdate()
@@ -69,9 +69,9 @@ public class EnemyAI : MonoBehaviour
         {
             Debug.Log("1");
             RaycastHit hit;
-            if (Physics.Raycast(transform.position + Vector3.up, direction, out hit))
+            if (Physics.Raycast(transform.position + new Vector3(0, (float) 0.806, (float) 0.583), direction, out hit))
             {
-                Debug.Log("2");
+                Debug.Log(hit.collider.gameObject);
                 if (hit.collider.gameObject == player.gameObject)
                 {
                     Debug.Log("3");
@@ -103,5 +103,5 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-
+    
 }
