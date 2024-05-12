@@ -69,7 +69,7 @@ public class EnemyAI : MonoBehaviour
         {
             Debug.Log("1");
             RaycastHit hit;
-            if (Physics.Raycast(transform.position + new Vector3(0, (float) 0.806, (float) 0.583), direction, out hit))
+            if (Physics.Raycast(transform.position + new Vector3(0, (float) 0.8, (float) 0.6), direction, out hit))
             {
                 Debug.Log(hit.collider.gameObject);
                 if (hit.collider.gameObject == player.gameObject)
