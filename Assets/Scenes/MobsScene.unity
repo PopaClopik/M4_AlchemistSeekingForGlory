@@ -274,6 +274,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &582937782 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2843074234648338148, guid: e85e977729891bc4eb0e191835d5aaac,
+    type: 3}
+  m_PrefabInstance: {fileID: 643639722}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca41ac2f4fb9e6469ba9a41486a2e8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &643639722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -706,6 +718,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SlimePBR
       objectReference: {fileID: 0}
+    - target: {fileID: 7823837973666366454, guid: 6b0d2207d05b31648a67ad12fa473503,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 582937782}
     - target: {fileID: 7823837973666366454, guid: 6b0d2207d05b31648a67ad12fa473503,
         type: 3}
       propertyPath: patrolPoints.Array.size

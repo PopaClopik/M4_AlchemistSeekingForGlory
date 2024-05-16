@@ -35,9 +35,9 @@ public class EnemyAI : MonoBehaviour
     private void Update()
     {
         NoticePlayerUpdate();
-        //ChaseUpdate();
+        ChaseUpdate();
         AttackUpdate();
-        //PatrolUpdate();
+        PatrolUpdate();
 
     }
     private void AttackUpdate()
@@ -66,6 +66,7 @@ public class EnemyAI : MonoBehaviour
 
         var direction = player.transform.position - transform.position;
         Debug.DrawRay(transform.position, direction, Color.red);
+        Debug.Log(direction);
         if (Vector3.Angle(transform.forward, direction) < viewAngle)
         {
             Debug.Log("1");
