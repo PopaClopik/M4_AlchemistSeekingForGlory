@@ -44,6 +44,10 @@ public class PauseController : MonoBehaviour
 
     public void PauseGame()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+       // GetComponent<StonesCaster>().enabled = false;
+
         _pausePanel.SetActive(true);
         Time.timeScale = 0;
         _isPaused = true;
@@ -51,6 +55,10 @@ public class PauseController : MonoBehaviour
 
     public void ResumeGame()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = true;
+       // GetComponent<StonesCaster>().enabled = true;
+
         _pausePanel.SetActive(false);
         Time.timeScale = 1;
         _isPaused = false;
