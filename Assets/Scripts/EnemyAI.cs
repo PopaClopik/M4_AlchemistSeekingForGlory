@@ -10,6 +10,7 @@ public class EnemyAI : MonoBehaviour
     public float viewAngle;
     public float damage = 20;
     public float attackDistance = 1f;
+    public float speed = 2.5f;
 
     private NavMeshAgent _navMeshAgent;
     private bool _isPlayerNoticed;
@@ -65,18 +66,13 @@ public class EnemyAI : MonoBehaviour
         if (!_playerHealth.IsAlive()) return;
 
         var direction = player.transform.position - transform.position;
-        Debug.DrawRay(transform.position, direction, Color.red);
-        Debug.Log(direction);
         if (Vector3.Angle(transform.forward, direction) < viewAngle)
         {
-            Debug.Log("1");
             RaycastHit hit;
             if (Physics.Raycast(transform.position + new Vector3(0, (float) 0.8, (float) 0.6), direction, out hit))
             {
-                Debug.Log(hit.collider.gameObject);
                 if (hit.collider.gameObject == player.gameObject)
                 {
-                    Debug.Log("3");
                     _isPlayerNoticed = true;
                 }
             }
