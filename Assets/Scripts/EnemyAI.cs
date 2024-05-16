@@ -65,6 +65,7 @@ public class EnemyAI : MonoBehaviour
         if (!_playerHealth.IsAlive()) return;
 
         var direction = player.transform.position - transform.position;
+        Debug.DrawRay(transform.position, direction, Color.red);
         if (Vector3.Angle(transform.forward, direction) < viewAngle)
         {
             Debug.Log("1");
