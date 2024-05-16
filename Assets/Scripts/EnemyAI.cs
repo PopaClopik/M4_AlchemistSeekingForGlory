@@ -10,7 +10,6 @@ public class EnemyAI : MonoBehaviour
     public float viewAngle;
     public float damage = 20;
     public float attackDistance = 1f;
-    public float speed = 2.5f;
 
     private NavMeshAgent _navMeshAgent;
     private bool _isPlayerNoticed;
@@ -73,6 +72,7 @@ public class EnemyAI : MonoBehaviour
             {
                 if (hit.collider.gameObject == player.gameObject)
                 {
+
                     _isPlayerNoticed = true;
                 }
             }
