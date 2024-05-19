@@ -23,9 +23,10 @@ public class Stone : MonoBehaviour
         if (enemyHealth != null)
         {
             enemyHealth.DealDamage(damage);
+            DestroyStone();
         }
 
-        DestroyStone();
+        //DestroyStone();
     }
 
     private void DestroyStone()
