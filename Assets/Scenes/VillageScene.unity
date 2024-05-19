@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.13695616, g: 0.14468539, b: 0.16864005, a: 1}
+  m_IndirectSpecularColor: {r: 0.13695571, g: 0.14468482, b: 0.16863942, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3998,7 +3998,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!1001 &218238350
 PrefabInstance:
@@ -21991,6 +21991,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f2f09b78dd1fa0458d192683b5a13b7, type: 3}
+--- !u!114 &1254222300 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2759984376838143534, guid: e85e977729891bc4eb0e191835d5aaac,
+    type: 3}
+  m_PrefabInstance: {fileID: 2088172274}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8953cc98c8b43f468c8b18664ac4354, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1257642048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22733,7 +22745,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1295858167
 Transform:
   m_ObjectHideFlags: 0
@@ -30370,6 +30382,7 @@ MonoBehaviour:
   _scaledTimer: {fileID: 134818462}
   _unscaledTimer: {fileID: 1161925927}
   _pausePanel: {fileID: 231002441}
+  _stonesCaster: {fileID: 1254222300}
 --- !u!1001 &1805305167
 PrefabInstance:
   m_ObjectHideFlags: 0
