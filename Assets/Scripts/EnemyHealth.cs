@@ -30,7 +30,7 @@ public class EnemyHealth : MonoBehaviour
         }
         else
         {
-            animator.SetTrigger("Hit");
+            //animator.SetTrigger("Hit");
         }
     }
 
