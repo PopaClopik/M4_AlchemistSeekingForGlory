@@ -19,10 +19,19 @@ public class InventoryAlter : MonoBehaviour
     public int unvisibalPotion;
     public int unbornPotion;
     public int slipPotion;
+    public static InventoryAlter instance;
     // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(gameObject);
+        if (instance != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
     }
 
     // Update is called once per frame
