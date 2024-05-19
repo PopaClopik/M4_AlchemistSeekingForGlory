@@ -15,7 +15,6 @@ public class Stone : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         DamageEnemy(collision);
-        DestroyStone();
     }
 
     private void DamageEnemy(Collision collision)
