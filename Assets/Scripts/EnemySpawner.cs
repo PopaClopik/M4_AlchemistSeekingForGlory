@@ -24,15 +24,25 @@ public class EnemySpawner : MonoBehaviour
 
     private void Update()
     {
-        if (_enemies.Count >= enemiesMaxCount) return;
-        if (Time.time - _timeLastSpawned < delay) return;
-        
-
+        CheckForDeadEnemies();        
         CreateEnemy();
+    }
+
+    private void CheckForDeadEnemies()
+    {
+        for (var i = 0; i < _enemies.Count; i++)
+        {
+            if (_enemies[i].IsAlive()) continue;
+            _enemies.RemoveAt(i);
+            i--;
+        }
     }
 
     private void CreateEnemy()
     {
+        if (_enemies.Count >= enemiesMaxCount) return;
+        if (Time.time - _timeLastSpawned < delay) return;
+
         var enemy = Instantiate(enemyPrefab);
         enemy.transform.position = _spawnerPoints[Random.Range(0, _spawnerPoints.Count)].position;
         enemy.player = player;
