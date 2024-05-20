@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class FogSceneChanger : MonoBehaviour
 {
-    void OnCollisionEnter(Collision collision)
+    //private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
+
+        if (collision.gameObject.name == "Player")
+        {
+
         
-        
-            Debug.Log("Collided with player");
             var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
 
             if (currentSceneIndex == 3 || currentSceneIndex == 4)
@@ -20,7 +23,7 @@ public class FogSceneChanger : MonoBehaviour
             {
                 SceneManager.LoadScene(4);
             }
-        
+        }
+       
     }
-
 }
