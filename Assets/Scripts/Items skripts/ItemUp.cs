@@ -7,7 +7,17 @@ using UnityEngine.EventSystems;
 public class ItemUp : MonoBehaviour
 {
     public InventoryAlter InventoryAlter;
-    // Start is called before the first frame update
+    private int IdItem;
+
+    public bool gipnoGrib;
+    public bool muhomorApetitGrib;
+    public bool pogankaObikGrib;
+    public bool fireGrib;
+    public bool strongestGrib;
+
+    public bool polan;
+    public bool boyaresnic;
+    public bool borhevic;
     void Start()
     {
         
@@ -22,22 +32,77 @@ public class ItemUp : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log("Дотронулся");
-        if (Input.GetKeyDown(KeyCode.E))
+        if ( gipnoGrib == true)
         {
-            InventoryAlter.fireGrib += 1;
-            Debug.Log("+1 гриб");
-            Destroy(gameObject);
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                IdItem = 0;
+                InventoryAlter.gipnoGrib += 1;
+                Destroy(gameObject);
+            }
+        }
+        else if (muhomorApetitGrib == true)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                IdItem = 1;
+                InventoryAlter.muhomorApetitGrib += 1;
+                Destroy(gameObject);
+            }
+        }
+        else if (pogankaObikGrib == true)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                IdItem = 2;
+                InventoryAlter.pogankaObikGrib += 1;
+                Destroy(gameObject);
+            }
+        }
+        else if (fireGrib == true)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                IdItem = 3;
+                InventoryAlter.fireGrib += 1;
+                Destroy(gameObject);
+            }
+        }
+        else if (strongestGrib == true)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                IdItem = 4;
+                InventoryAlter.strongestGrib += 1;
+                Destroy(gameObject);
+            }
+        }
+        else if (polan == true)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                IdItem = 5;
+                InventoryAlter.polan += 1;
+                Destroy(gameObject);
+            }
+        }
+        else if (boyaresnic == true)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                IdItem = 6;
+                InventoryAlter.boyaresnic += 1;
+                Destroy(gameObject);
+            }
+        }
+        else if (borhevic == true)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                IdItem = 7;
+                InventoryAlter.borhevic += 1;
+                Destroy(gameObject);
+            }
         }
     }
-   
-    //private void 
-    //{
-    //  Debug.Log("Дотронулся");
-    //if (Input.GetKeyDown(KeyCode.E))
-    //{
-    //  InventoryAlter.fireGrib += 1;
-    //Debug.Log("+1 гриб");
-    //}
-    //}
 }
