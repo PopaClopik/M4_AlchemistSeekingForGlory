@@ -7,10 +7,19 @@ public class SceneButton : MonoBehaviour, IInteractable
     public bool isOn;
 
 
-    public string GetDescription()
-    {
+   public string GetDescription()
+   {
         if (isOn) return "Press E";
-        return "Locked";
+       return "Locked";
+   }
+   
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.name == "Player")
+        {
+            LevelController controller = new LevelController();
+            controller.LoadSceneLevel();
+        }
     }
 
     public void Interact()
