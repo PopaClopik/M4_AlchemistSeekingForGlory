@@ -6,6 +6,7 @@ public class EnemyHealth : MonoBehaviour
 {
     public float value = 100;
     public Animator animator;
+    public float afterDeathTime;
 
     //public PlayerProgress playerProgress;
 
@@ -40,5 +41,11 @@ public class EnemyHealth : MonoBehaviour
         GetComponent<EnemyAI>().enabled = false;
         GetComponent<NavMeshAgent>().enabled = false;
         GetComponent<CapsuleCollider>().enabled = false;
+        Invoke("DestroyMob", afterDeathTime);
+    }
+
+    public void DestroyMob()
+    {
+        Destroy(gameObject);
     }
 }
