@@ -7,7 +7,6 @@ using UnityEngine.EventSystems;
 public class ItemUp : MonoBehaviour
 {
     public InventoryAlter InventoryAlter;
-    private int IdItem;
 
     public bool gipnoGrib;
     public bool muhomorApetitGrib;
@@ -36,7 +35,6 @@ public class ItemUp : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                IdItem = 0;
                 InventoryAlter.gipnoGrib += 1;
                 Destroy(gameObject);
             }
@@ -45,7 +43,6 @@ public class ItemUp : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                IdItem = 1;
                 InventoryAlter.muhomorApetitGrib += 1;
                 Destroy(gameObject);
             }
@@ -54,7 +51,6 @@ public class ItemUp : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                IdItem = 2;
                 InventoryAlter.pogankaObikGrib += 1;
                 Destroy(gameObject);
             }
@@ -63,7 +59,6 @@ public class ItemUp : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                IdItem = 3;
                 InventoryAlter.fireGrib += 1;
                 Destroy(gameObject);
             }
@@ -72,7 +67,6 @@ public class ItemUp : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                IdItem = 4;
                 InventoryAlter.strongestGrib += 1;
                 Destroy(gameObject);
             }
@@ -81,7 +75,6 @@ public class ItemUp : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                IdItem = 5;
                 InventoryAlter.polan += 1;
                 Destroy(gameObject);
             }
@@ -90,7 +83,6 @@ public class ItemUp : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                IdItem = 6;
                 InventoryAlter.boyaresnic += 1;
                 Destroy(gameObject);
             }
@@ -99,7 +91,6 @@ public class ItemUp : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                IdItem = 7;
                 InventoryAlter.borhevic += 1;
                 Destroy(gameObject);
             }

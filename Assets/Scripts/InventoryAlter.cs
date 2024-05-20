@@ -20,6 +20,11 @@ public class InventoryAlter : MonoBehaviour
     public int unbornPotion;
     public int slipPotion;
     public static InventoryAlter instance;
+
+    public Transform stoneSourceTransform;
+
+    public GameObject Player;
+    public GameObject gipnoGribObgect;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,7 +42,13 @@ public class InventoryAlter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            Debug.Log("Сработало");
+            var spawnedStone = Instantiate(gipnoGribObgect);
+            spawnedStone.transform.position = stoneSourceTransform.position;
+            spawnedStone.GetComponent<Rigidbody>().AddForce(stoneSourceTransform.forward * 0);
+        }
     }
     public void ItemCount() 
     {
