@@ -28,6 +28,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 100
   animator: {fileID: 3074435572827425399}
+  afterDeathTime: 8
 --- !u!114 &2300496012297254366
 MonoBehaviour:
   m_ObjectHideFlags: 0
