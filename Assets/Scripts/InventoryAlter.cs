@@ -16,9 +16,10 @@ public class InventoryAlter : MonoBehaviour
 
     public int strongestPotion;
     public int hillPotion;
-    public int unvisibalPotion;
     public int unbornPotion;
-    public int slipPotion;
+    public int hipnosisPotion;
+    public int poisonPotion;
+    public int spidPotion;
     public static InventoryAlter instance;
 
     public Transform stoneSourceTransform;
@@ -92,6 +93,7 @@ public class InventoryAlter : MonoBehaviour
             var spawnedStone = Instantiate(gipnoGribObgect);
             spawnedStone.transform.position = stoneSourceTransform.position;
             spawnedStone.GetComponent<Rigidbody>().AddForce(stoneSourceTransform.forward * 0);
+            
             gipnoGrib -= 1; 
         }
     }
