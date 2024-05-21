@@ -178,6 +178,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 458a74fb5b4f6ee4f8ec12ac39eb02a7, type: 3}
+--- !u!114 &357052987 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+    type: 3}
+  m_PrefabInstance: {fileID: 1991893563}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d293de69ef21b704390ab0961b4f0562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &816571150
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aaa93fa57a995846a08010cdab9d039, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InventoryAlter: {fileID: 0}
+  InventoryAlter: {fileID: 357052987}
   gipnoGrib: 1
   muhomorApetitGrib: 0
   pogankaObikGrib: 0
@@ -418,7 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aaa93fa57a995846a08010cdab9d039, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InventoryAlter: {fileID: 0}
+  InventoryAlter: {fileID: 357052987}
   gipnoGrib: 0
   muhomorApetitGrib: 0
   pogankaObikGrib: 0
@@ -539,7 +551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aaa93fa57a995846a08010cdab9d039, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InventoryAlter: {fileID: 0}
+  InventoryAlter: {fileID: 357052987}
   gipnoGrib: 0
   muhomorApetitGrib: 1
   pogankaObikGrib: 0
@@ -654,7 +666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aaa93fa57a995846a08010cdab9d039, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InventoryAlter: {fileID: 0}
+  InventoryAlter: {fileID: 357052987}
   gipnoGrib: 0
   muhomorApetitGrib: 0
   pogankaObikGrib: 0
@@ -977,15 +989,122 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
         type: 3}
+      propertyPath: polan
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: borhevic
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: fireGrib
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: gipnoGrib
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: boyaresnic
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: hillPotion
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: slipPotion
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: polanObject
+      value: 
+      objectReference: {fileID: 5789043827841342783, guid: 15d1fcd2cefdcc64db8286c3f503e6b6,
+        type: 3}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: unbornPotion
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: strongestGrib
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: borhevicObject
+      value: 
+      objectReference: {fileID: 1816546974720812457, guid: 77e8ecccccc142244bea79379622aa15,
+        type: 3}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: fireGribObject
+      value: 
+      objectReference: {fileID: 2241511753528450737, guid: 0404f7aad4b94b047bbe52dbdc1b5f6e,
+        type: 3}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
       propertyPath: gipnoGribObgect
       value: 
       objectReference: {fileID: 2160496571173584324, guid: b8567fc838d5c474bab350c4f2a6e04e,
         type: 3}
     - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
         type: 3}
+      propertyPath: pogankaObikGrib
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: strongestPotion
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: unvisibalPotion
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: boyaresnicObject
+      value: 
+      objectReference: {fileID: 3729258421255688886, guid: c50a4ac4168726e4e8535b26793c3712,
+        type: 3}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: muhomorApetitGrib
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: strongestGribObject
+      value: 
+      objectReference: {fileID: 5706293522166517383, guid: 6fa1cbac4955d4143a141f057d3906e5,
+        type: 3}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
       propertyPath: stoneSourceTransform
       value: 
       objectReference: {fileID: 1236627769}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: pogankaObikGribObject
+      value: 
+      objectReference: {fileID: 158374168859862842, guid: 257bf13188c86f44681553003a7d4c75,
+        type: 3}
+    - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: muhomorApetitGribObgect
+      value: 
+      objectReference: {fileID: 7617417100722019544, guid: b8b337f6db8d87a4e86c08d7d239d413,
+        type: 3}
     - target: {fileID: 6740933570906891506, guid: e85e977729891bc4eb0e191835d5aaac,
         type: 3}
       propertyPath: m_RootOrder
