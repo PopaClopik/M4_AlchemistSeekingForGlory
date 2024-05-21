@@ -2627,7 +2627,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: dc67ff4b1bae9d0449af1e880e51d5a8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9563b2a0b6905a7469ff86a35ed171f6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -4502,6 +4502,7 @@ MonoBehaviour:
   _scaledTimer: {fileID: 1570069573}
   _unscaledTimer: {fileID: 2117213179}
   _pausePanel: {fileID: 1218669224}
+  _stonesCaster: {fileID: 0}
 --- !u!4 &2036770040
 Transform:
   m_ObjectHideFlags: 0
