@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 6d44f4b7617ccaa48a238e3fc7484f07, type: 2}
 --- !u!1001 &7938536
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -208,6 +208,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1279437348525479949, guid: e2e682b966e3f644392ffbfab511e0e2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1279437348525638701, guid: e2e682b966e3f644392ffbfab511e0e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -265,6 +270,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2e682b966e3f644392ffbfab511e0e2, type: 3}
+--- !u!1 &145789330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 145789331}
+  m_Layer: 0
+  m_Name: patrol point
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &145789331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145789330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.02, y: 3.52, z: -3.45}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1846624649}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &169953459
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,6 +479,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Stone_02_B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 394962947974255004, guid: 54347a80f72335449a44debe62026e22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1022563517682813734, guid: 54347a80f72335449a44debe62026e22,
         type: 3}
       propertyPath: m_RootOrder
@@ -524,7 +564,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &215130599
 BoxCollider:
@@ -646,6 +686,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ground_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279437348525479949, guid: e2e682b966e3f644392ffbfab511e0e2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1279437348525638701, guid: e2e682b966e3f644392ffbfab511e0e2,
         type: 3}
@@ -811,6 +856,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Stone_02_B (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 394962947974255004, guid: 54347a80f72335449a44debe62026e22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1022563517682813734, guid: 54347a80f72335449a44debe62026e22,
         type: 3}
@@ -1117,6 +1167,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &320953711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 320953712}
+  m_Layer: 0
+  m_Name: patrol point (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &320953712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320953711}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.81, y: 3.69, z: 29.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1846624649}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &333447009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1128,6 +1208,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ground_02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279437348525479949, guid: e2e682b966e3f644392ffbfab511e0e2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1279437348525638701, guid: e2e682b966e3f644392ffbfab511e0e2,
         type: 3}
@@ -1207,6 +1292,66 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 333447009}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &375712778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 375712779}
+  m_Layer: 0
+  m_Name: point (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &375712779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375712778}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.457, y: 3.02, z: -13.424}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1107687892}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &387456981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 387456982}
+  m_Layer: 0
+  m_Name: point
+  m_TagString: Untagged
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &387456982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387456981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.291, y: 3.02, z: 16.129}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1107687892}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &416904933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1273,6 +1418,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Stone_03_B (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9011490414093844671, guid: 309abf2420bd1f84296c1a58f3e40721,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 309abf2420bd1f84296c1a58f3e40721, type: 3}
@@ -1368,6 +1518,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ground_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279437348525479949, guid: e2e682b966e3f644392ffbfab511e0e2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1279437348525638701, guid: e2e682b966e3f644392ffbfab511e0e2,
         type: 3}
@@ -1493,6 +1648,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Stone_03_B (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 9011490414093844671, guid: 309abf2420bd1f84296c1a58f3e40721,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 309abf2420bd1f84296c1a58f3e40721, type: 3}
 --- !u!4 &551204007 stripped
@@ -1582,6 +1742,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3233454257918345706}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &604117503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 604117504}
+  m_Layer: 0
+  m_Name: patrol point (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &604117504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604117503}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -28.51, y: 3.52, z: 15.07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1846624649}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &619379443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1593,6 +1783,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Town_BG_Env_Tree02_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910690767822755929, guid: 9646d94114006ea46b17fd6022899405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4399524409363776227, guid: 9646d94114006ea46b17fd6022899405,
         type: 3}
@@ -1912,6 +2107,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_02 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279437348525479949, guid: e2e682b966e3f644392ffbfab511e0e2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1279437348525638701, guid: e2e682b966e3f644392ffbfab511e0e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -2077,6 +2277,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Town_BG_Env_Bush01_B
       objectReference: {fileID: 0}
+    - target: {fileID: 387640436283153801, guid: f0883e44d7ef1b94993f33dcc041dcb0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1020905620910130995, guid: f0883e44d7ef1b94993f33dcc041dcb0,
         type: 3}
       propertyPath: m_RootOrder
@@ -2151,6 +2356,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Stone_02_B (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 394962947974255004, guid: 54347a80f72335449a44debe62026e22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1022563517682813734, guid: 54347a80f72335449a44debe62026e22,
         type: 3}
@@ -2243,7 +2453,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &872046832
 PrefabInstance:
@@ -2331,6 +2541,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Town_BG_Env_Tree02_B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910690767822755929, guid: 9646d94114006ea46b17fd6022899405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4399524409363776227, guid: 9646d94114006ea46b17fd6022899405,
         type: 3}
@@ -2490,7 +2705,7 @@ PrefabInstance:
     - target: {fileID: 2843074234648338138, guid: e85e977729891bc4eb0e191835d5aaac,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2843074234648338138, guid: e85e977729891bc4eb0e191835d5aaac,
         type: 3}
@@ -2554,6 +2769,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a8953cc98c8b43f468c8b18664ac4354, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &917258329 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2843074234648338148, guid: e85e977729891bc4eb0e191835d5aaac,
+    type: 3}
+  m_PrefabInstance: {fileID: 917258327}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca41ac2f4fb9e6469ba9a41486a2e8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &959368629
@@ -2718,6 +2945,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Town_BG_Env_Tree02_B (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3910690767822755929, guid: 9646d94114006ea46b17fd6022899405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4399524409363776227, guid: 9646d94114006ea46b17fd6022899405,
         type: 3}
       propertyPath: m_RootOrder
@@ -2781,6 +3013,62 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1009143018}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1107687890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1107687892}
+  - component: {fileID: 1107687891}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1107687891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107687890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eceb6d7f84bcfb04c881e82fe3611254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 7823837973666366454, guid: 6b0d2207d05b31648a67ad12fa473503,
+    type: 3}
+  player: {fileID: 917258329}
+  patrolPoints:
+  - {fileID: 320953712}
+  - {fileID: 1739849267}
+  - {fileID: 604117504}
+  - {fileID: 145789331}
+  enemiesMaxCount: 5
+  delay: 5
+--- !u!4 &1107687892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107687890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 387456982}
+  - {fileID: 1227934769}
+  - {fileID: 375712779}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1130201801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3223,6 +3511,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279437348525479949, guid: e2e682b966e3f644392ffbfab511e0e2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1279437348525638701, guid: e2e682b966e3f644392ffbfab511e0e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -3291,6 +3584,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1226908415}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1227934768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1227934769}
+  m_Layer: 0
+  m_Name: point (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1227934769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227934768}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -19.24, y: 3.32, z: 23.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1107687892}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1233637723
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3546,6 +3869,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Stone_02_B
       objectReference: {fileID: 0}
+    - target: {fileID: 394962947974255004, guid: 54347a80f72335449a44debe62026e22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1022563517682813734, guid: 54347a80f72335449a44debe62026e22,
         type: 3}
       propertyPath: m_RootOrder
@@ -3620,6 +3948,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ground_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279437348525479949, guid: e2e682b966e3f644392ffbfab511e0e2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1279437348525638701, guid: e2e682b966e3f644392ffbfab511e0e2,
         type: 3}
@@ -3797,6 +4130,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Town_BG_Env_Tree02_B (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3910690767822755929, guid: 9646d94114006ea46b17fd6022899405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4399524409363776227, guid: 9646d94114006ea46b17fd6022899405,
         type: 3}
       propertyPath: m_RootOrder
@@ -3946,6 +4284,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Branch_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493958779012120596, guid: b9de24523a11d714db3851b5f0f9d527,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1493958779012619316, guid: b9de24523a11d714db3851b5f0f9d527,
         type: 3}
@@ -4484,6 +4827,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1279437348525479949, guid: e2e682b966e3f644392ffbfab511e0e2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1279437348525638701, guid: e2e682b966e3f644392ffbfab511e0e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -4799,6 +5147,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Stone_02_B (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 394962947974255004, guid: 54347a80f72335449a44debe62026e22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1022563517682813734, guid: 54347a80f72335449a44debe62026e22,
         type: 3}
       propertyPath: m_RootOrder
@@ -4966,6 +5319,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_02_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 2432158063424774589, guid: 9b4edc8bbc71ebb4584c54ed46a0bce0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3065564260692753159, guid: 9b4edc8bbc71ebb4584c54ed46a0bce0,
         type: 3}
@@ -5192,6 +5550,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_02 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279437348525479949, guid: e2e682b966e3f644392ffbfab511e0e2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1279437348525638701, guid: e2e682b966e3f644392ffbfab511e0e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -5337,6 +5700,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Stone_03_B
       objectReference: {fileID: 0}
+    - target: {fileID: 9011490414093844671, guid: 309abf2420bd1f84296c1a58f3e40721,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 309abf2420bd1f84296c1a58f3e40721, type: 3}
 --- !u!4 &1731677269 stripped
@@ -5356,6 +5724,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Stone_02_B (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 394962947974255004, guid: 54347a80f72335449a44debe62026e22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1022563517682813734, guid: 54347a80f72335449a44debe62026e22,
         type: 3}
@@ -5420,6 +5793,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1732548151}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1739849266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1739849267}
+  m_Layer: 0
+  m_Name: patrol point (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1739849267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739849266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 27.86, y: 5.28, z: 4.26}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1846624649}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1780074096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5495,6 +5898,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1780074096}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1846624648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1846624649}
+  m_Layer: 0
+  m_Name: PatrolPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1846624649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846624648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 320953712}
+  - {fileID: 1739849267}
+  - {fileID: 604117504}
+  - {fileID: 145789331}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1902896552 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1279437348525638701, guid: e2e682b966e3f644392ffbfab511e0e2,
@@ -5568,6 +6005,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Stone_03_B (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 9011490414093844671, guid: 309abf2420bd1f84296c1a58f3e40721,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 309abf2420bd1f84296c1a58f3e40721, type: 3}
 --- !u!4 &1911982287 stripped
@@ -5587,6 +6029,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Town_BG_Env_Tree02_B (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910690767822755929, guid: 9646d94114006ea46b17fd6022899405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4399524409363776227, guid: 9646d94114006ea46b17fd6022899405,
         type: 3}
@@ -5738,6 +6185,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279437348525479949, guid: e2e682b966e3f644392ffbfab511e0e2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1279437348525638701, guid: e2e682b966e3f644392ffbfab511e0e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -5806,6 +6258,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Town_BG_Env_Tree02_B (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910690767822755929, guid: 9646d94114006ea46b17fd6022899405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4399524409363776227, guid: 9646d94114006ea46b17fd6022899405,
         type: 3}
