@@ -21,6 +21,7 @@ public class PauseController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            Debug.Log("lox");
             if (_isPaused)
             {
                 ResumeGame();
@@ -28,6 +29,7 @@ public class PauseController : MonoBehaviour
             else
             {
                 PauseGame();
+                Debug.Log("12345");
             }
         }
 
