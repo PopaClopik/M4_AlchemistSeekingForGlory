@@ -6,12 +6,13 @@ public class QuestSpenser : MonoBehaviour
 {
     public bool EndDialog;
     public GameObject Dialog1;
+    public GameObject Dialog2;
+    public Picked_Quest Picked_Quest;
+    public bool End_Dialog;
+    public InventoryAlter InventoryAlter;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     void Update()
@@ -19,15 +20,37 @@ public class QuestSpenser : MonoBehaviour
         if (EndDialog == true)
         {
             Time.timeScale = 1;
+            Picked_Quest.Quest1 = true;
             Dialog1.SetActive(false);
         }
+        if (End_Dialog == true)
+        {
+            Time.timeScale = 1;
+            Picked_Quest.Quest1 = false;
+            Dialog1 .SetActive(false);
+        }
 
-        
     }
     void OnTriggerEnter(Collider col)
         {
-            if (col.gameObject.tag == "Player");
+        Debug.Log(col.gameObject.tag);
+        if (col.gameObject.tag == "Player")
+        {
             Time.timeScale = 0;
-            Dialog1.SetActive(true);
+            if (Picked_Quest.end_Quest1 == false)
+            {
+                Dialog1.SetActive(true);
+            }
+            else
+            {
+                Debug.Log(InventoryAlter.hillPotion);
+                if (InventoryAlter.hillPotion > 0)
+                {
+                    Debug.Log("Picked");
+                    // Picked_Quest.end_Quest1 = true;
+                    Dialog2.SetActive(true);
+                }
+            }
+        }
         }
 }
