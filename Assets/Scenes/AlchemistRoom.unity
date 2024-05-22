@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6234,6 +6234,11 @@ PrefabInstance:
       propertyPath: _stonesCaster
       value: 
       objectReference: {fileID: 88170374}
+    - target: {fileID: 5819071284606269871, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 5819071284606269871, guid: 1084dff36a473aa4d9a3bf471ba6992a,
         type: 3}
       propertyPath: m_audioClip
