@@ -6,7 +6,9 @@ public class RoomButton : MonoBehaviour, IInteractable
 {
 
     public bool isOn;
-
+    public PlayerInteraction pl1;
+    public PlayerInteraction1 pl2;
+    public GameObject player;
 
     public string GetDescription()
    {
@@ -15,6 +17,9 @@ public class RoomButton : MonoBehaviour, IInteractable
    }
     public void Interact()
     {
+        pl1.enabled = true;
+        pl2.enabled = false;
+
         LevelController controller = new LevelController();
         controller.LoadRoomLevel();
     }

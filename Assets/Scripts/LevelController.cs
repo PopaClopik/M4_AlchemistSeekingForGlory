@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour
 {
+
+   
     public void LoadRoomLevel()
 
     {
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(3);
+
     }
     public void LoadSceneLevel()
     {
@@ -22,6 +25,7 @@ public class LevelController : MonoBehaviour
         else if (currentSceneIndex == 1)
         {
             SceneManager.LoadScene(4);
+
         }
     }
 
