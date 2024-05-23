@@ -2,19 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dialog_NextClick : MonoBehaviour {
+public class Dialog_NextClick : MonoBehaviour 
+{
 	public GameObject Text1;
 	public GameObject Text2;
 	private bool isText1 =true;
 	public QuestSpenser questSpenser_Script;
 	public bool EndDialog = false;
 
-	// Use this for initialization
-	void Start () 
-	{
 
-		
-	}
 	
 	// Update is called once per frame
 	void Update () 
@@ -51,5 +47,8 @@ public class Dialog_NextClick : MonoBehaviour {
 			Text1.SetActive (false);
 			Text2.SetActive (true);
 		}
-	}
+
+///////////////////////////
+
+    }
 }
