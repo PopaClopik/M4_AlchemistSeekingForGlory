@@ -3644,6 +3644,11 @@ PrefabInstance:
       objectReference: {fileID: 917258328}
     - target: {fileID: 5819071284606269871, guid: 1084dff36a473aa4d9a3bf471ba6992a,
         type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819071284606269871, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 5e7efc009ba5e814f8e81f35c2c6dd2e, type: 3}
