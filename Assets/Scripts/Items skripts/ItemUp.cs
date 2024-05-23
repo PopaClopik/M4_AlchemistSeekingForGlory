@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using TMPro;
 
 public class ItemUp : MonoBehaviour
 {
     public InventoryAlter InventoryAlter;
+    public TextMeshProUGUI itemAmountTMP;
 
     public bool gipnoGrib;
     public bool muhomorApetitGrib;
