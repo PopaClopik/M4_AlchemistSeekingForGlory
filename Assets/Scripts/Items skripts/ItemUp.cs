@@ -19,17 +19,30 @@ public class ItemUp : MonoBehaviour
     public bool polan;
     public bool boyaresnic;
     public bool borhevic;
-    void Start()
+
+    private void Start()
     {
-        
+        DrawSilaGribUI();
+        DrawBorchevicUI();
+        DrawBoyarishnikUI();
+        DrawFireGribUI();
+        DrawGipnoGribUI();
+        DrawPogankaUI();
+        DrawMyhomorUI();
+        DrawPolinUI();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-       
+        //DrawSilaGribUI();
+        //DrawBorchevicUI();
+        //DrawBoyarishnikUI();
+        //DrawFireGribUI();
+        //DrawGipnoGribUI();
+        //DrawPogankaUI();
+        //DrawMyhomorUI();
+        //DrawPolinUI();
     }
-
 
     private void OnTriggerStay(Collider other)
     {
@@ -38,6 +51,7 @@ public class ItemUp : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 InventoryAlter.gipnoGrib += 1;
+                DrawGipnoGribUI();
                 Destroy(gameObject);
             }
         }
@@ -46,6 +60,7 @@ public class ItemUp : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 InventoryAlter.muhomorApetitGrib += 1;
+                DrawMyhomorUI();
                 Destroy(gameObject);
             }
         }
@@ -54,6 +69,7 @@ public class ItemUp : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 InventoryAlter.pogankaObikGrib += 1;
+                DrawPogankaUI();
                 Destroy(gameObject);
             }
         }
@@ -62,6 +78,7 @@ public class ItemUp : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 InventoryAlter.fireGrib += 1;
+                DrawFireGribUI();
                 Destroy(gameObject);
             }
         }
@@ -70,7 +87,9 @@ public class ItemUp : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 InventoryAlter.strongestGrib += 1;
+                DrawSilaGribUI();
                 Destroy(gameObject);
+
             }
         }
         else if (polan == true)
@@ -78,6 +97,7 @@ public class ItemUp : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 InventoryAlter.polan += 1;
+                DrawPolinUI();
                 Destroy(gameObject);
             }
         }
@@ -86,6 +106,7 @@ public class ItemUp : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 InventoryAlter.boyaresnic += 1;
+                DrawBoyarishnikUI();
                 Destroy(gameObject);
             }
         }
@@ -94,8 +115,48 @@ public class ItemUp : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 InventoryAlter.borhevic += 1;
+                DrawBorchevicUI();
                 Destroy(gameObject);
             }
         }
+    }
+    public void DrawSilaGribUI()
+    {
+        itemAmountTMP.text = InventoryAlter.strongestGrib.ToString();
+    }
+
+    public void DrawMyhomorUI()
+    {
+        itemAmountTMP.text = InventoryAlter.muhomorApetitGrib.ToString();
+    }
+
+    public void DrawPogankaUI()
+    {
+        itemAmountTMP.text = InventoryAlter.pogankaObikGrib.ToString();
+    }
+
+    public void DrawGipnoGribUI()
+    {
+        itemAmountTMP.text = InventoryAlter.gipnoGrib.ToString();
+    }
+
+    public void DrawFireGribUI()
+    {
+        itemAmountTMP.text = InventoryAlter.fireGrib.ToString();
+    }
+
+    public void DrawPolinUI()
+    {
+        itemAmountTMP.text = InventoryAlter.polan.ToString();
+    }
+
+    public void DrawBoyarishnikUI()
+    {
+        itemAmountTMP.text = InventoryAlter.boyaresnic.ToString();
+    }
+
+    public void DrawBorchevicUI()
+    {
+        itemAmountTMP.text = InventoryAlter.borhevic.ToString();
     }
 }

@@ -33,7 +33,7 @@ public class InventoryAlter : MonoBehaviour
     public GameObject polanObject;
     public GameObject boyaresnicObject;
     public GameObject borhevicObject;
-    // Start is called before the first frame update
+
     void Start()
     {
         DontDestroyOnLoad(gameObject);
@@ -174,7 +174,4 @@ public class InventoryAlter : MonoBehaviour
             borhevic -= 1;
         }
     }
-
-   
-
 }

@@ -12,6 +12,7 @@ public class SilaGribSpawner : MonoBehaviour
 
     public List<Transform> _spawnerPoints;
 
+
     private void Start()
     {
         _spawnerPoints = new List<Transform>(transform.GetComponentsInChildren<Transform>());
