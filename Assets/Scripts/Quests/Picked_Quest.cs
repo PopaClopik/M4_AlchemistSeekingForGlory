@@ -19,10 +19,14 @@ public class Picked_Quest : MonoBehaviour
     public GameObject Text3;
     public bool end_Quest3;
     public bool TextDone3;
-    
-    
 
-  
+
+    public bool Quest4;
+    public GameObject Text4;
+    public bool end_Quest4;
+    public bool TextDone4;
+
+
     void Update()
     {
 
@@ -79,6 +83,25 @@ public class Picked_Quest : MonoBehaviour
         else
         {
             Text3.SetActive(false);
+        }
+        ///////////////
+        ///
+        if (end_Quest1 == true && end_Quest2 == true && end_Quest3 == true && end_Quest4 == false)
+        {
+            if (Quest4 == true)
+            {
+                Text4.SetActive(true);
+                TextDone4 = true;
+            }
+            else
+            {
+                Text4.SetActive(false);
+            }
+
+        }
+        else
+        {
+            Text4.SetActive(false);
         }
     }
 
