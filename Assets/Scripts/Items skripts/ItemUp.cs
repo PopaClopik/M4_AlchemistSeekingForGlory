@@ -10,6 +10,7 @@ public class ItemUp : MonoBehaviour
     public InventoryAlter InventoryAlter;
     public TextMeshProUGUI itemAmountTMP;
     public AudioSource takeOneGrib;
+    public AudioSource takeOneFlower;
 
     public bool gipnoGrib;
     public bool muhomorApetitGrib;
