@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class InventoryAlter : MonoBehaviour
 {
@@ -15,11 +16,18 @@ public class InventoryAlter : MonoBehaviour
     public int borhevic;
 
     public int strongestPotion;
+    public TextMeshProUGUI silaPotionCount;
     public int hillPotion;
+    public TextMeshProUGUI hillPotionCount;
     public int unbornPotion;
+    public TextMeshProUGUI fireAspectPotionCount;
     public int hipnosisPotion;
+    public TextMeshProUGUI hipnosisPotionCount;
     public int poisonPotion;
+    public TextMeshProUGUI poisonPotionCount;
     public int spidPotion;
+    public TextMeshProUGUI spidPotionCount;
+
     public static InventoryAlter instance;
 
     public Transform stoneSourceTransform;

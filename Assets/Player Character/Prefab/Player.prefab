@@ -6699,9 +6699,24 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
+      propertyPath: hillPotionCount
+      value: 
+      objectReference: {fileID: 1714072146147141780}
+    - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
       propertyPath: pogankaObikGrib
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
+      propertyPath: silaPotionCount
+      value: 
+      objectReference: {fileID: 6330780604556543096}
+    - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
+      propertyPath: spidPotionCount
+      value: 
+      objectReference: {fileID: 6994794274704643816}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
       propertyPath: strongestPotion
@@ -6720,6 +6735,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
+      propertyPath: poisonPotionCount
+      value: 
+      objectReference: {fileID: 5303161009183240733}
+    - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
+      propertyPath: hipnosisPotionCount
+      value: 
+      objectReference: {fileID: 5929164677119190180}
+    - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
       propertyPath: strongestGribObject
       value: 
       objectReference: {fileID: 5706293522166517383, guid: 6fa1cbac4955d4143a141f057d3906e5,
@@ -6729,6 +6754,11 @@ PrefabInstance:
       propertyPath: stoneSourceTransform
       value: 
       objectReference: {fileID: 3591204177325236722}
+    - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
+      propertyPath: fireAspectPotionCount
+      value: 
+      objectReference: {fileID: 3108616188736370609}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
       propertyPath: pogankaObikGribObject
