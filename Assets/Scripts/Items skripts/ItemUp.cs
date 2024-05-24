@@ -33,18 +33,6 @@ public class ItemUp : MonoBehaviour
         DrawPolinUI();
     }
 
-    private void Update()
-    {
-        //DrawSilaGribUI();
-        //DrawBorchevicUI();
-        //DrawBoyarishnikUI();
-        //DrawFireGribUI();
-        //DrawGipnoGribUI();
-        //DrawPogankaUI();
-        //DrawMyhomorUI();
-        //DrawPolinUI();
-    }
-
     private void OnTriggerStay(Collider other)
     {
         if ( gipnoGrib == true)

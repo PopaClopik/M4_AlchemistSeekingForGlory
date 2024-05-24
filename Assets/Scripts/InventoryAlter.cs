@@ -53,6 +53,13 @@ public class InventoryAlter : MonoBehaviour
         {
             instance = this;
         }
+
+        DrawFirePotionUI();
+        DrawHillPotionUI();
+        DrawHipnosisPotionUI();
+        DrawPoisonPotionUI();
+        DrawSilaPotionUI();
+        DrawSpidPotionUI();
     }
 
     // Update is called once per frame
@@ -182,4 +189,36 @@ public class InventoryAlter : MonoBehaviour
             borhevic -= 1;
         }
     }
+
+    public void DrawSilaPotionUI()
+    {
+        silaPotionCount.text = strongestPotion.ToString();
+    }
+
+    public void DrawSpidPotionUI()
+    {
+        spidPotionCount.text = hillPotion.ToString();
+    }
+
+    public void DrawFirePotionUI()
+    {
+        fireAspectPotionCount.text = unbornPotion.ToString();
+    }
+
+    public void DrawHipnosisPotionUI()
+    {
+        hipnosisPotionCount.text = hipnosisPotion.ToString();
+    }
+
+    public void DrawPoisonPotionUI()
+    {
+        poisonPotionCount.text = poisonPotion.ToString();
+    }
+
+    public void DrawHillPotionUI()
+    {
+        hillPotionCount.text = spidPotion.ToString();
+    }
+
+
 }

@@ -6641,7 +6641,7 @@ PrefabInstance:
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
       propertyPath: polan
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
@@ -6651,22 +6651,22 @@ PrefabInstance:
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
       propertyPath: borhevic
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
       propertyPath: fireGrib
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
       propertyPath: gipnoGrib
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
       propertyPath: boyaresnic
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
@@ -6676,8 +6676,13 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
+      propertyPath: poisonPotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
       propertyPath: strongestGrib
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
@@ -6693,6 +6698,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
+      propertyPath: hipnosisPotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
       propertyPath: gipnoGribObgect
       value: 
       objectReference: {fileID: 2160496571173584324, guid: b8567fc838d5c474bab350c4f2a6e04e,
@@ -6705,7 +6715,7 @@ PrefabInstance:
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
       propertyPath: pogankaObikGrib
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
@@ -6720,7 +6730,7 @@ PrefabInstance:
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
       propertyPath: strongestPotion
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
@@ -6731,7 +6741,7 @@ PrefabInstance:
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
       propertyPath: muhomorApetitGrib
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
