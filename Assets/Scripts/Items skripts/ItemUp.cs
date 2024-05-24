@@ -9,6 +9,7 @@ public class ItemUp : MonoBehaviour
 {
     public InventoryAlter InventoryAlter;
     public TextMeshProUGUI itemAmountTMP;
+    public AudioSource audioSource;
 
     public bool gipnoGrib;
     public bool muhomorApetitGrib;
