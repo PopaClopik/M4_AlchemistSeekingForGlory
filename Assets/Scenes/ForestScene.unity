@@ -1180,6 +1180,11 @@ PrefabInstance:
       objectReference: {fileID: 1227137695}
     - target: {fileID: 7753361483541926293, guid: 7ed0c0773f94cff46ba29fff9a0d816f,
         type: 3}
+      propertyPath: takeOneGrib
+      value: 
+      objectReference: {fileID: 1227137695}
+    - target: {fileID: 7753361483541926293, guid: 7ed0c0773f94cff46ba29fff9a0d816f,
+        type: 3}
       propertyPath: itemAmountTMP
       value: 
       objectReference: {fileID: 1410013146}
@@ -4012,6 +4017,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5811002275386343823, guid: f59de9d4215507447a0cc490913005ed,
         type: 3}
+      propertyPath: takeOneGrib
+      value: 
+      objectReference: {fileID: 1227137695}
+    - target: {fileID: 5811002275386343823, guid: f59de9d4215507447a0cc490913005ed,
+        type: 3}
       propertyPath: itemAmountTMP
       value: 
       objectReference: {fileID: 814872393}
@@ -4179,6 +4189,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1227137694}
     m_Modifications:
+    - target: {fileID: -7221860387263666750, guid: b6427713aaeacc545a3e9a3782dd557c,
+        type: 3}
+      propertyPath: takeOneGrib
+      value: 
+      objectReference: {fileID: 1227137695}
     - target: {fileID: -7221860387263666750, guid: b6427713aaeacc545a3e9a3782dd557c,
         type: 3}
       propertyPath: itemAmountTMP
@@ -5084,7 +5099,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6e689cabc666a53449fdef91911efa88, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
@@ -6479,6 +6494,11 @@ PrefabInstance:
     - target: {fileID: -291084052233382450, guid: efed8822e3481794eb2a348155dce1a2,
         type: 3}
       propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1227137695}
+    - target: {fileID: -291084052233382450, guid: efed8822e3481794eb2a348155dce1a2,
+        type: 3}
+      propertyPath: takeOneGrib
       value: 
       objectReference: {fileID: 1227137695}
     - target: {fileID: -291084052233382450, guid: efed8822e3481794eb2a348155dce1a2,
@@ -7926,6 +7946,11 @@ PrefabInstance:
       objectReference: {fileID: 1227137695}
     - target: {fileID: 841015715894595152, guid: 3f4f9f5b833a1f2409d50e745efd1f33,
         type: 3}
+      propertyPath: takeOneGrib
+      value: 
+      objectReference: {fileID: 1227137695}
+    - target: {fileID: 841015715894595152, guid: 3f4f9f5b833a1f2409d50e745efd1f33,
+        type: 3}
       propertyPath: itemAmountTMP
       value: 
       objectReference: {fileID: 328196477}
@@ -8087,6 +8112,11 @@ PrefabInstance:
     - target: {fileID: 7753361483541926293, guid: 7ed0c0773f94cff46ba29fff9a0d816f,
         type: 3}
       propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1227137695}
+    - target: {fileID: 7753361483541926293, guid: 7ed0c0773f94cff46ba29fff9a0d816f,
+        type: 3}
+      propertyPath: takeOneGrib
       value: 
       objectReference: {fileID: 1227137695}
     - target: {fileID: 7753361483541926293, guid: 7ed0c0773f94cff46ba29fff9a0d816f,

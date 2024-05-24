@@ -9,7 +9,7 @@ public class ItemUp : MonoBehaviour
 {
     public InventoryAlter InventoryAlter;
     public TextMeshProUGUI itemAmountTMP;
-    public AudioSource audioSource;
+    public AudioSource takeOneGrib;
 
     public bool gipnoGrib;
     public bool muhomorApetitGrib;
@@ -63,6 +63,7 @@ public class ItemUp : MonoBehaviour
                 InventoryAlter.muhomorApetitGrib += 1;
                 DrawMyhomorUI();
                 Destroy(gameObject);
+                takeOneGrib.Play();
             }
         }
         else if (pogankaObikGrib == true)
