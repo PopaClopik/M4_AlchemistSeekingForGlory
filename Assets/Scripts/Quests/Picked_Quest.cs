@@ -6,19 +6,23 @@ public class Picked_Quest : MonoBehaviour
 {
     public bool Quest1;
     public GameObject Text1;
-    public GameObject Text2;
     public bool end_Quest1;
     public bool TextDone;
-    public bool TextDone2;
+
     public bool Quest2;
+    public GameObject Text2;
     public bool end_Quest2;
+    public bool TextDone2;
 
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+    public bool Quest3;
+    public GameObject Text3;
+    public bool end_Quest3;
+    public bool TextDone3;
+    
+    
+
+  
     void Update()
     {
 
@@ -57,5 +61,25 @@ public class Picked_Quest : MonoBehaviour
         {
             Text2.SetActive(false);
         }
+        /////////////////////////////////////
+        ///
+        if (end_Quest1 == true && end_Quest2 == true && end_Quest3 ==false)
+        {
+            if (Quest3 == true)
+            {
+                Text3.SetActive(true);
+                TextDone3 = true;
+            }
+            else
+            {
+                Text3.SetActive(false);
+            }
+
+        }
+        else
+        {
+            Text3.SetActive(false);
+        }
     }
+
 }

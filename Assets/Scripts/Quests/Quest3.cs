@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Quest2 : MonoBehaviour
+public class Quest3 : MonoBehaviour
 {
     public bool EndDialog;
     public GameObject Dialog1;
@@ -10,20 +10,20 @@ public class Quest2 : MonoBehaviour
     public Picked_Quest Picked_Quest;
     public bool End_Dialog;
     public InventoryAlter InventoryAlter;
-    public NextClick2 NextClick2;
+    public NextClick3 NextClick3;
 
     void Update()
     {
         if (EndDialog == true)
         {
             Time.timeScale = 1;
-            Picked_Quest.Quest2 = true;
+            Picked_Quest.Quest3 = true;
             Dialog1.SetActive(false);
         }
         if (End_Dialog == true)
         {
             Time.timeScale = 1;
-            Picked_Quest.Quest2 = false;
+            Picked_Quest.Quest3 = false;
             Dialog1.SetActive(false);
         }
 
@@ -34,30 +34,27 @@ public class Quest2 : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
             Time.timeScale = 0;
-            Debug.Log(Picked_Quest.end_Quest2);
-            if (Picked_Quest.end_Quest2 == false)
+            Debug.Log(Picked_Quest.end_Quest3);
+            if (Picked_Quest.end_Quest3  == false)
             {
                 Dialog1.SetActive(true);
 
             }
-            if (Picked_Quest.TextDone2 == true)
+            if (Picked_Quest.TextDone3 == true)
 
             {
                 Dialog1.SetActive(false);
-                if (InventoryAlter.strongestPotion > 0)
+                if (InventoryAlter.spidPotion > 0)
                 {
 
 
 
-                    Picked_Quest.end_Quest2 = true;
+                    Picked_Quest.end_Quest3 = true;
 
                     Dialog2.SetActive(true);
-                    InventoryAlter.strongestPotion -= 1;
+                    InventoryAlter.spidPotion -= 1;
 
-                    // if (Dialog_NextClick.questSpenser_Script.End_Dialog == true)
-                    // {
-                    //     Dialog2.SetActive(false);
-                    // }
+                   
                 }
             }
 
