@@ -4082,6 +4082,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4634342647779369568, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.22
+      objectReference: {fileID: 0}
     - target: {fileID: 5819071284159779159, guid: 1084dff36a473aa4d9a3bf471ba6992a,
         type: 3}
       propertyPath: _stonesCaster
