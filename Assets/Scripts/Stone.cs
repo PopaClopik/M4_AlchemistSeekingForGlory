@@ -7,6 +7,7 @@ public class Stone : MonoBehaviour
     public float damage = 20;
     public float lifeTime;
     public AudioSource PebbleCollision;
+     
 
     void Start()
     {
@@ -16,8 +17,19 @@ public class Stone : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         DamageEnemy(collision);
-        PebbleCollision.Play();
+        SoundEffect();
+
+    }
+
+    public void SoundEffect()
+    {
         
+         
+        //if (GetComponent<SoundToggleInPause>()._soundVolume == true)
+        {
+            Debug.Log("vanya krutoy");
+            PebbleCollision.Play();
+        }
     }
 
     private void DamageEnemy(Collision collision)

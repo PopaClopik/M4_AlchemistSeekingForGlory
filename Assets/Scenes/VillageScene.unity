@@ -1692,6 +1692,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 702929896}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &47812397 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6441305749869928008, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1154215411}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &50537276 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2309709346158774500, guid: 74dbf2d29910f7c4d9728d74bcc29c1c,
@@ -11429,6 +11435,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 975475572}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &417660270 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5819071284943324380, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1154215411}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d0212a53a7ac05499b4543a0acba446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &419606505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30526,10 +30544,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1217503253101686113, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 417660270}
+    - target: {fileID: 1217503253101686113, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SoundEffectsToggle
+      objectReference: {fileID: 0}
     - target: {fileID: 2008359307400095423, guid: 1084dff36a473aa4d9a3bf471ba6992a,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876499147256905252, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 417660270}
+    - target: {fileID: 3876499147256905252, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SoundEffectsToggle
       objectReference: {fileID: 0}
     - target: {fileID: 5819071284159778985, guid: 1084dff36a473aa4d9a3bf471ba6992a,
         type: 3}
@@ -30551,6 +30589,21 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 6353a2cacbc571c4fb72e25e4b506ca0, type: 3}
+    - target: {fileID: 5819071284943324380, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: _soundVolume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819071284943324380, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: _soundEffectMute
+      value: 
+      objectReference: {fileID: 47812397}
+    - target: {fileID: 5819071284943324380, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: _soundEffectUnmute
+      value: 
+      objectReference: {fileID: 1719513647}
     - target: {fileID: 5819071285276029171, guid: 1084dff36a473aa4d9a3bf471ba6992a,
         type: 3}
       propertyPath: m_RootOrder
@@ -43552,6 +43605,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7352450944324656140, guid: a20a9e02134288f4588fa823cd467728,
     type: 3}
   m_PrefabInstance: {fileID: 1508855256}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1719513647 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5069401126273893627, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1154215411}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1720131097
 PrefabInstance:

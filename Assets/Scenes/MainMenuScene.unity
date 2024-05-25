@@ -994,6 +994,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _volumeMute: {fileID: 2033454245}
   _volumeUnmute: {fileID: 1317714854}
+  _soundEffectMute: {fileID: 5412867872991026100}
+  _soundEffectUnmute: {fileID: 5412867872991026099}
 --- !u!4 &327373102
 Transform:
   m_ObjectHideFlags: 0
@@ -4784,6 +4786,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1074005525}
     m_Modifications:
+    - target: {fileID: 4621834796393233092, guid: 11048911de3afd044b78609bf1a78594,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 327373101}
+    - target: {fileID: 4621834796393233092, guid: 11048911de3afd044b78609bf1a78594,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SoundEffectsToggle
+      objectReference: {fileID: 0}
     - target: {fileID: 5412867871769696021, guid: 11048911de3afd044b78609bf1a78594,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4944,5 +4956,27 @@ PrefabInstance:
       propertyPath: m_text
       value: Settings
       objectReference: {fileID: 0}
+    - target: {fileID: 7281592647877585281, guid: 11048911de3afd044b78609bf1a78594,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 327373101}
+    - target: {fileID: 7281592647877585281, guid: 11048911de3afd044b78609bf1a78594,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SoundEffectsToggle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11048911de3afd044b78609bf1a78594, type: 3}
+--- !u!1 &5412867872991026099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1629001207773762398, guid: 11048911de3afd044b78609bf1a78594,
+    type: 3}
+  m_PrefabInstance: {fileID: 5412867872991026098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5412867872991026100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 695071613449751021, guid: 11048911de3afd044b78609bf1a78594,
+    type: 3}
+  m_PrefabInstance: {fileID: 5412867872991026098}
+  m_PrefabAsset: {fileID: 0}
