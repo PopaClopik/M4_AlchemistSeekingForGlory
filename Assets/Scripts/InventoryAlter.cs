@@ -5,6 +5,9 @@ using TMPro;
 
 public class InventoryAlter : MonoBehaviour
 {
+
+    public int Coin;
+
     public int gipnoGrib;
     public int muhomorApetitGrib;
     public int pogankaObikGrib;
