@@ -26,6 +26,17 @@ public class Picked_Quest : MonoBehaviour
     public bool end_Quest4;
     public bool TextDone4;
 
+    public static Picked_Quest instance;
+
+
+    void Start()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
 
     void Update()
     {

@@ -11,22 +11,31 @@ public class QuestSpenser : MonoBehaviour
     public bool End_Dialog;
     public InventoryAlter InventoryAlter;
     public Dialog_NextClick Dialog_NextClick;
+    public GameObject QuestSpenser11;
+    public GameObject QuestSpenser22;
+
+     public static QuestSpenser instance;
 
     // Start is called before the first frame update
-
-
-    // Update is called once per frame
+    void Start()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
     void Update()
     {
         if (EndDialog == true)
         {
-            Time.timeScale = 1;
+           // Time.timeScale = 1;
             Picked_Quest.Quest1 = true;
             Dialog1.SetActive(false);
         }
         if (End_Dialog == true)
         {
-            Time.timeScale = 1;
+          //  Time.timeScale = 1;
             Picked_Quest.Quest1 = false;
             Dialog1 .SetActive(false);
         }
@@ -37,7 +46,7 @@ public class QuestSpenser : MonoBehaviour
         Debug.Log(col.gameObject.tag);
         if (col.gameObject.tag == "Player")
         {
-            Time.timeScale = 0;
+          //  Time.timeScale = 0;
             Debug.Log(Picked_Quest.end_Quest1);
             if (Picked_Quest.end_Quest1 == false)
             {
@@ -59,12 +68,11 @@ public class QuestSpenser : MonoBehaviour
                 Dialog2.SetActive(true);
                 Debug.Log("Dialog2 activated");
                 InventoryAlter.hillPotion -= 1;
+                QuestSpenser22.SetActive(true);
+                QuestSpenser11.SetActive(false);
                 
-                   // if (Dialog_NextClick.questSpenser_Script.End_Dialog == true)
-                   // {
-                   //     Dialog2.SetActive(false);
-                   // }
-            }
+
+                }
             }
            
         }

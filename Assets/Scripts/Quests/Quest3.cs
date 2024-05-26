@@ -12,6 +12,9 @@ public class Quest3 : MonoBehaviour
     public InventoryAlter InventoryAlter;
     public NextClick3 NextClick3;
 
+    public GameObject QuestSpenser3;
+    public GameObject QuestSpenser4;
+
     void Update()
     {
         if (EndDialog == true)
@@ -54,7 +57,9 @@ public class Quest3 : MonoBehaviour
                     Dialog2.SetActive(true);
                     InventoryAlter.spidPotion -= 1;
 
-                   
+                    QuestSpenser4.SetActive(true);
+                    QuestSpenser3.SetActive(false);
+
                 }
             }
 

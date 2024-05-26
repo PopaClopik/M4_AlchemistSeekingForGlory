@@ -12,6 +12,19 @@ public class Quest4 : MonoBehaviour
     public InventoryAlter InventoryAlter;
     public NextClick4 NextClick4;
 
+    public GameObject QuestSpenser4;
+
+    public static Quest4 instance;
+
+
+    void Start()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
     void Update()
     {
         if (EndDialog == true)
@@ -54,6 +67,8 @@ public class Quest4 : MonoBehaviour
                     Dialog2.SetActive(true);
                     InventoryAlter.unbornPotion -= 1;
 
+                    QuestSpenser4.SetActive(true);
+                    
 
                 }
             }

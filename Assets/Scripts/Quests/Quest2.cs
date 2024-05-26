@@ -11,18 +11,20 @@ public class Quest2 : MonoBehaviour
     public bool End_Dialog;
     public InventoryAlter InventoryAlter;
     public NextClick2 NextClick2;
+    public GameObject QuestSpenser3;
+    public GameObject QuestSpenser22;
 
     void Update()
     {
         if (EndDialog == true)
         {
-            Time.timeScale = 1;
+           // Time.timeScale = 1;
             Picked_Quest.Quest2 = true;
             Dialog1.SetActive(false);
         }
         if (End_Dialog == true)
         {
-            Time.timeScale = 1;
+          //  Time.timeScale = 1;
             Picked_Quest.Quest2 = false;
             Dialog1.SetActive(false);
         }
@@ -33,7 +35,7 @@ public class Quest2 : MonoBehaviour
         Debug.Log(col.gameObject.tag);
         if (col.gameObject.tag == "Player")
         {
-            Time.timeScale = 0;
+          //  Time.timeScale = 0;
             Debug.Log(Picked_Quest.end_Quest2);
             if (Picked_Quest.end_Quest2 == false)
             {
@@ -54,10 +56,8 @@ public class Quest2 : MonoBehaviour
                     Dialog2.SetActive(true);
                     InventoryAlter.strongestPotion -= 1;
 
-                    // if (Dialog_NextClick.questSpenser_Script.End_Dialog == true)
-                    // {
-                    //     Dialog2.SetActive(false);
-                    // }
+                    QuestSpenser3.SetActive(true);
+                    QuestSpenser22.SetActive(false);
                 }
             }
 
