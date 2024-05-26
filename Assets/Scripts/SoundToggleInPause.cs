@@ -42,7 +42,7 @@ public class SoundToggleInPause : MonoBehaviour
         else //if (_soundVolume == true)
         {
             _soundVolume = false;
-            Debug.Log("vanya lox");
+            Debug.Log("ToggleSoundWorks");
             
             _soundEffectMute.SetActive(false);
             _soundEffectUnmute.SetActive(true);
