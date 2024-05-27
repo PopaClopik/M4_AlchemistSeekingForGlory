@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -530,6 +530,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 481622430359716964, guid: 7d79a9eaafc6d13438ee08ad60fdbb6d,
         type: 3}
+      propertyPath: takeOneGrib
+      value: 
+      objectReference: {fileID: 2055858738}
+    - target: {fileID: 481622430359716964, guid: 7d79a9eaafc6d13438ee08ad60fdbb6d,
+        type: 3}
       propertyPath: itemAmountTMP
       value: 
       objectReference: {fileID: 130504984}
@@ -542,7 +547,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     - target: {fileID: 4679135523068650005, guid: 7d79a9eaafc6d13438ee08ad60fdbb6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -713,7 +719,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     - target: {fileID: 3730381905161529966, guid: 3f4f9f5b833a1f2409d50e745efd1f33,
         type: 3}
       propertyPath: m_RootOrder
@@ -925,6 +932,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2134782588233988747, guid: 1eba30b1c9875b24c83fdd2623ade65b,
         type: 3}
+      propertyPath: takeOneGrib
+      value: 
+      objectReference: {fileID: 2055858738}
+    - target: {fileID: 2134782588233988747, guid: 1eba30b1c9875b24c83fdd2623ade65b,
+        type: 3}
       propertyPath: itemAmountTMP
       value: 
       objectReference: {fileID: 1137440685}
@@ -937,7 +949,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     - target: {fileID: 6350274171320907056, guid: 1eba30b1c9875b24c83fdd2623ade65b,
         type: 3}
       propertyPath: m_RootOrder
@@ -1202,7 +1215,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     - target: {fileID: 8441558124166633717, guid: 7ed0c0773f94cff46ba29fff9a0d816f,
         type: 3}
       propertyPath: m_RootOrder
@@ -1490,6 +1504,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2134782588233988747, guid: 1eba30b1c9875b24c83fdd2623ade65b,
         type: 3}
+      propertyPath: takeOneGrib
+      value: 
+      objectReference: {fileID: 2055858738}
+    - target: {fileID: 2134782588233988747, guid: 1eba30b1c9875b24c83fdd2623ade65b,
+        type: 3}
       propertyPath: itemAmountTMP
       value: 
       objectReference: {fileID: 1137440685}
@@ -1502,7 +1521,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     - target: {fileID: 6350274171320907056, guid: 1eba30b1c9875b24c83fdd2623ade65b,
         type: 3}
       propertyPath: m_RootOrder
@@ -3065,6 +3085,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 481622430359716964, guid: 7d79a9eaafc6d13438ee08ad60fdbb6d,
         type: 3}
+      propertyPath: takeOneGrib
+      value: 
+      objectReference: {fileID: 2055858738}
+    - target: {fileID: 481622430359716964, guid: 7d79a9eaafc6d13438ee08ad60fdbb6d,
+        type: 3}
       propertyPath: itemAmountTMP
       value: 
       objectReference: {fileID: 130504984}
@@ -3077,7 +3102,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     - target: {fileID: 4679135523068650005, guid: 7d79a9eaafc6d13438ee08ad60fdbb6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -3945,7 +3971,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     - target: {fileID: 8469461150935443467, guid: f59de9d4215507447a0cc490913005ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -4124,7 +4151,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     - target: {fileID: 3798211259360953273, guid: b6427713aaeacc545a3e9a3782dd557c,
         type: 3}
       propertyPath: m_RootOrder
@@ -4258,7 +4286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1107687891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4630,7 +4658,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     - target: {fileID: 3336036360431699497, guid: efed8822e3481794eb2a348155dce1a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -4861,6 +4890,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5179906526471149148, guid: 42af6335c5ef7534087474599d43f3f9,
         type: 3}
+      propertyPath: takeOneGrib
+      value: 
+      objectReference: {fileID: 2055858738}
+    - target: {fileID: 5179906526471149148, guid: 42af6335c5ef7534087474599d43f3f9,
+        type: 3}
       propertyPath: itemAmountTMP
       value: 
       objectReference: {fileID: 88895833}
@@ -4873,7 +4907,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42af6335c5ef7534087474599d43f3f9, type: 3}
 --- !u!4 &1223614184 stripped
@@ -5924,7 +5959,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     - target: {fileID: 8469461150935443467, guid: f59de9d4215507447a0cc490913005ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -6430,7 +6466,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     - target: {fileID: 3336036360431699497, guid: efed8822e3481794eb2a348155dce1a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -7542,7 +7579,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1660473356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7878,7 +7915,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     - target: {fileID: 3730381905161529966, guid: 3f4f9f5b833a1f2409d50e745efd1f33,
         type: 3}
       propertyPath: m_RootOrder
@@ -8048,7 +8086,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     - target: {fileID: 8441558124166633717, guid: 7ed0c0773f94cff46ba29fff9a0d816f,
         type: 3}
       propertyPath: m_RootOrder
@@ -8700,7 +8739,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     - target: {fileID: 3798211259360953273, guid: b6427713aaeacc545a3e9a3782dd557c,
         type: 3}
       propertyPath: m_RootOrder
@@ -8803,7 +8843,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fb4bcb7073a64a440b8da7e6a06a6d92, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.65
   m_Pitch: 1
   Loop: 0
@@ -9007,6 +9047,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5179906526471149148, guid: 42af6335c5ef7534087474599d43f3f9,
         type: 3}
+      propertyPath: takeOneGrib
+      value: 
+      objectReference: {fileID: 2055858738}
+    - target: {fileID: 5179906526471149148, guid: 42af6335c5ef7534087474599d43f3f9,
+        type: 3}
       propertyPath: itemAmountTMP
       value: 
       objectReference: {fileID: 88895833}
@@ -9019,7 +9064,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42af6335c5ef7534087474599d43f3f9, type: 3}
 --- !u!4 &2083675816 stripped
