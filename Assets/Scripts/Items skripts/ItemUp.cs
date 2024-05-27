@@ -43,6 +43,7 @@ public class ItemUp : MonoBehaviour
                 InventoryAlter.gipnoGrib += 1;
                 DrawGipnoGribUI();
                 Destroy(gameObject);
+                takeOneGrib.Play();
             }
         }
         else if (muhomorApetitGrib == true)
@@ -93,6 +94,7 @@ public class ItemUp : MonoBehaviour
                 InventoryAlter.polan += 1;
                 DrawPolinUI();
                 Destroy(gameObject);
+                takeOneFlower.Play();
             }
         }
         else if (boyaresnic == true)
@@ -102,6 +104,7 @@ public class ItemUp : MonoBehaviour
                 InventoryAlter.boyaresnic += 1;
                 DrawBoyarishnikUI();
                 Destroy(gameObject);
+                takeOneFlower.Play();
             }
         }
         else if (borhevic == true)
@@ -111,6 +114,7 @@ public class ItemUp : MonoBehaviour
                 InventoryAlter.borhevic += 1;
                 DrawBorchevicUI();
                 Destroy(gameObject);
+                takeOneFlower.Play();
             }
         }
     }
