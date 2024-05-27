@@ -16,21 +16,20 @@ public class Quest4 : MonoBehaviour
 
     public static Quest4 instance;
 
+    public bool Quest4Done = false;
+
 
     void Start()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
+      
     }
-    void Update()
+void Update()
     {
         if (EndDialog == true)
         {
             Time.timeScale = 1;
             Picked_Quest.Quest4 = true;
+            InventoryAlter.Quest4 = true;
             Dialog1.SetActive(false);
         }
         if (End_Dialog == true)
@@ -63,11 +62,15 @@ public class Quest4 : MonoBehaviour
 
 
                     Picked_Quest.end_Quest4 = true;
+                    InventoryAlter.end_Quest4 = true;
 
                     Dialog2.SetActive(true);
                     InventoryAlter.unbornPotion -= 1;
 
-                    QuestSpenser4.SetActive(true);
+                    Quest4Done = true;
+                    InventoryAlter.Quest4Done = true;
+
+                    QuestSpenser4.SetActive(false);
                     
 
                 }

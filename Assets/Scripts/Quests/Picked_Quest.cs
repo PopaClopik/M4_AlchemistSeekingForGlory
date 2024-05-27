@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Picked_Quest : MonoBehaviour
 {
+    public InventoryAlter InventoryAlter;
+
     public bool Quest1;
     public GameObject Text1;
     public bool end_Quest1;
@@ -31,11 +33,7 @@ public class Picked_Quest : MonoBehaviour
 
     void Start()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
+       
     }
 
     void Update()
