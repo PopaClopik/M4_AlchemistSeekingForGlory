@@ -62,6 +62,7 @@ public class ItemUp : MonoBehaviour
                 InventoryAlter.pogankaObikGrib += 1;
                 DrawPogankaUI();
                 Destroy(gameObject);
+                takeOneGrib.Play();
             }
         }
         else if (fireGrib == true)
@@ -71,6 +72,7 @@ public class ItemUp : MonoBehaviour
                 InventoryAlter.fireGrib += 1;
                 DrawFireGribUI();
                 Destroy(gameObject);
+                takeOneGrib.Play();
             }
         }
         else if (strongestGrib == true)
@@ -80,6 +82,7 @@ public class ItemUp : MonoBehaviour
                 InventoryAlter.strongestGrib += 1;
                 DrawSilaGribUI();
                 Destroy(gameObject);
+                takeOneGrib.Play();
 
             }
         }
