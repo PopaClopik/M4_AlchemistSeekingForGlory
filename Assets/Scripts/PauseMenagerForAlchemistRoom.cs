@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class PauseController : MonoBehaviour
+public class PauseMenagerForAlchemistRoom : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI _scaledTimer;
     [SerializeField] TextMeshProUGUI _unscaledTimer;
 
     [SerializeField] GameObject _pausePanel;
+    [SerializeField] GameObject _recipBook;
 
     bool _isPaused = false;
 
-    [SerializeField] StonesCaster _stonesCaster;
+    
 
     float _scaledTime;
     float _unscaledTime;
@@ -21,10 +22,11 @@ public class PauseController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            
+
             if (_isPaused)
             {
                 ResumeGame();
+                
             }
             else
             {
@@ -50,7 +52,7 @@ public class PauseController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-        _stonesCaster.enabled = false;
+        
 
         _pausePanel.SetActive(true);
         Time.timeScale = 0;
@@ -59,9 +61,18 @@ public class PauseController : MonoBehaviour
 
     public void ResumeGame()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-        _stonesCaster.enabled = true;
+        if (_recipBook.activeInHierarchy)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        
+        
 
         _pausePanel.SetActive(false);
         Time.timeScale = 1;

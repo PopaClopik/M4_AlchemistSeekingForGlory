@@ -7,6 +7,7 @@ public class InteractiveButton : MonoBehaviour
     public GameObject targetCanvas;
     private bool isPlayerInRange = false;
     public GameObject _cookingClue;
+    
 
     void Start()
     {
@@ -26,6 +27,7 @@ public class InteractiveButton : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
                 targetCanvas.SetActive(true); // Включаем Canvas при нажатии клавиши E
+               
             }
         }
     }
