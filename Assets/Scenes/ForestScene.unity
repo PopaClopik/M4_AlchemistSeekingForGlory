@@ -3812,6 +3812,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1714072146147141780, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: m_text
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1924590388680282802, guid: e85e977729891bc4eb0e191835d5aaac,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -3877,6 +3882,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3108616188736370609, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: m_text
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
         type: 3}
       propertyPath: polan
@@ -3925,6 +3935,31 @@ PrefabInstance:
     - target: {fileID: 4413651612054311559, guid: e85e977729891bc4eb0e191835d5aaac,
         type: 3}
       propertyPath: muhomorApetitGrib
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303161009183240733, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: m_text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5929164677119190180, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: m_text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6330780604556543096, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: m_text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424540209422887329, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: m_text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6994794274704643816, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: m_text
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7326,7 +7361,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1564176272
 Light:
   m_ObjectHideFlags: 0
