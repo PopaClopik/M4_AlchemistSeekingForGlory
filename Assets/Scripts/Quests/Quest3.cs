@@ -15,15 +15,12 @@ public class Quest3 : MonoBehaviour
     public GameObject QuestSpenser3;
     public GameObject QuestSpenser4;
 
-    public bool Quest3Done = false;
-
     void Update()
     {
         if (EndDialog == true)
         {
             Time.timeScale = 1;
             Picked_Quest.Quest3 = true;
-            InventoryAlter.Quest3 = true;
             Dialog1.SetActive(false);
         }
         if (End_Dialog == true)
@@ -56,13 +53,10 @@ public class Quest3 : MonoBehaviour
 
 
                     Picked_Quest.end_Quest3 = true;
-                    InventoryAlter.end_Quest3 = true;
 
                     Dialog2.SetActive(true);
                     InventoryAlter.spidPotion -= 1;
 
-                    Quest3Done = true;
-                    InventoryAlter.Quest3Done = true;
                     QuestSpenser4.SetActive(true);
                     QuestSpenser3.SetActive(false);
 

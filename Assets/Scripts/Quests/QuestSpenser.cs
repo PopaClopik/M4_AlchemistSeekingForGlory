@@ -13,14 +13,13 @@ public class QuestSpenser : MonoBehaviour
     public Dialog_NextClick Dialog_NextClick;
     public GameObject QuestSpenser11;
     public GameObject QuestSpenser22;
-    public bool Quest1Done = false;
 
      public static QuestSpenser instance;
 
     // Start is called before the first frame update
     void Start()
     {
-      
+       
     }
     void Update()
     {
@@ -28,7 +27,6 @@ public class QuestSpenser : MonoBehaviour
         {
            // Time.timeScale = 1;
             Picked_Quest.Quest1 = true;
-            InventoryAlter.Quest1 = true;
             Dialog1.SetActive(false);
         }
         if (End_Dialog == true)
@@ -56,19 +54,16 @@ public class QuestSpenser : MonoBehaviour
             {
                 Dialog1.SetActive(false);
                 if (InventoryAlter.hillPotion > 0)
-                {
+            {
 
                     
 
                     Debug.Log("Picked");
                 Picked_Quest.end_Quest1 = true;
-                InventoryAlter.end_Quest1 = true;
 
                 Dialog2.SetActive(true);
                 Debug.Log("Dialog2 activated");
                 InventoryAlter.hillPotion -= 1;
-                Quest1Done = true;
-                InventoryAlter.Quest1Done = true;
                 QuestSpenser22.SetActive(true);
                 QuestSpenser11.SetActive(false);
                 

@@ -45,26 +45,6 @@ public class InventoryAlter : MonoBehaviour
     public GameObject boyaresnicObject;
     public GameObject borhevicObject;
 
-
-    public bool Quest1Done;
-    public bool Quest2Done;
-    public bool Quest3Done;
-    public bool Quest4Done;
-
-
-    public bool end_Quest1;
-    public bool end_Quest2;
-    public bool end_Quest3;
-    public bool end_Quest4;
-    public bool Quest1;
-    public bool Quest2;
-    public bool Quest3;
-    public bool Quest4;
-    public bool TextDone;
-    public bool TextDone2;
-    public bool TextDone3;
-    public bool TextDone4;
-
     void Start()
     {
         DontDestroyOnLoad(gameObject);

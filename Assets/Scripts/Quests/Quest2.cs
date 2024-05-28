@@ -13,7 +13,6 @@ public class Quest2 : MonoBehaviour
     public NextClick2 NextClick2;
     public GameObject QuestSpenser3;
     public GameObject QuestSpenser22;
-    public bool Quest2Done = false;
 
     void Update()
     {
@@ -21,7 +20,6 @@ public class Quest2 : MonoBehaviour
         {
            // Time.timeScale = 1;
             Picked_Quest.Quest2 = true;
-            InventoryAlter.Quest2 = true;
             Dialog1.SetActive(false);
         }
         if (End_Dialog == true)
@@ -54,13 +52,10 @@ public class Quest2 : MonoBehaviour
 
 
                     Picked_Quest.end_Quest2 = true;
-                    InventoryAlter.end_Quest2 = true;
 
                     Dialog2.SetActive(true);
                     InventoryAlter.strongestPotion -= 1;
 
-                    Quest2Done = true;
-                    InventoryAlter.Quest2Done = true;
                     QuestSpenser3.SetActive(true);
                     QuestSpenser22.SetActive(false);
                 }

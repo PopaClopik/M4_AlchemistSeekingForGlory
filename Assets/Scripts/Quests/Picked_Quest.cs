@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Picked_Quest : MonoBehaviour
 {
-    public InventoryAlter InventoryAlter;
-
     public bool Quest1;
     public GameObject Text1;
     public bool end_Quest1;
