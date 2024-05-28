@@ -5,25 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class FogSceneChanger : MonoBehaviour
 {
-    //private void OnTriggerEnter(Collider other)
-    private void OnCollisionEnter(Collision collision)
+    private void Start()
     {
+      
+        SceneManager.LoadScene("ForestScene",LoadSceneMode.Additive);
+        Debug.Log("+1");
+    }
 
-        if (collision.gameObject.name == "Player")
-        {
 
-        
-            var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-
-            if (currentSceneIndex == 3 || currentSceneIndex == 4)
-            {
-                SceneManager.LoadScene(1);
-            }
-            else if (currentSceneIndex == 1)
-            {
-                SceneManager.LoadScene(4);
-            }
-        }
-       
+    public static void SwitchScene(string sceneName)
+    {
+        Scene targetScen = SceneManager.GetSceneByName(sceneName);
+        SceneManager.SetActiveScene(targetScen);
     }
 }
