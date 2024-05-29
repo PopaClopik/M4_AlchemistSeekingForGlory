@@ -9,6 +9,7 @@ public class FogSceneChanger : MonoBehaviour
     {
       
         SceneManager.LoadScene("ForestScene",LoadSceneMode.Additive);
+        SceneManager.LoadScene("AlchemistRoom", LoadSceneMode.Additive);
         Debug.Log("+1");
     }
 

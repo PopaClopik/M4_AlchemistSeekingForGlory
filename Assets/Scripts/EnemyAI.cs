@@ -25,6 +25,8 @@ public class EnemyAI : MonoBehaviour
     {
         InitComponentLinks();
         PickNewPatrolPoint();
+        Debug.Log("nine");
+        player = GameObject.Find("Player").GetComponent<PlayerController>();
     }
     private void InitComponentLinks()
     {
@@ -38,6 +40,8 @@ public class EnemyAI : MonoBehaviour
         ChaseUpdate();
         AttackUpdate();
         PatrolUpdate();
+       
+    
 
     }
     private void AttackUpdate()

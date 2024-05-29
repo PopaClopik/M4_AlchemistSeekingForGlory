@@ -2,29 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SceneButton : MonoBehaviour, IInteractable
+public class SceneButton : MonoBehaviour
 {
-    public bool isOn;
+    public GameObject pointTP;
 
-
-   public string GetDescription()
-   {
-        if (isOn) return "Press E";
-       return "Locked";
-   }
-   
-    void OnCollisionEnter(Collision collision)
+    private void Start()
     {
-        if (collision.gameObject.name == "Player")
+        pointTP = GameObject.Find("PointTP1");
+    }
+    public void Update()
+    {
+        if (pointTP == null)
         {
-            LevelController controller = new LevelController();
-            controller.LoadSceneLevel();
+            pointTP = GameObject.Find("PointTP1");
         }
     }
 
-    public void Interact()
+    private void OnTriggerEnter(Collider other)
     {
-        LevelController controller = new LevelController();
-        controller.LoadSceneLevel();
+        Debug.Log(other.gameObject.name);
+        if (other.gameObject.name == "Player")
+        {
+            other.gameObject.GetComponent<CharacterController>().enabled = false;
+            other.gameObject.transform.position = pointTP.transform.position;
+            Debug.Log("+1");
+            other.gameObject.GetComponent<CharacterController>().enabled = true;
+        }
     }
 }

@@ -20,6 +20,7 @@ public class EnemySpawner : MonoBehaviour
     {
         _spawnerPoints = new List<Transform>(transform.GetComponentsInChildren<Transform>());
         _enemies = new List<EnemyAI>();
+        player = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
     private void Update()
