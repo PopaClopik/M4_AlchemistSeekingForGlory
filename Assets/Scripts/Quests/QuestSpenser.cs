@@ -57,6 +57,7 @@ public class QuestSpenser : MonoBehaviour
             {
 
                     InventoryAlter.Coin += 10;
+                    InventoryAlter.DrawCoinUI();
 
                     Debug.Log("Picked");
                 Picked_Quest.end_Quest1 = true;
