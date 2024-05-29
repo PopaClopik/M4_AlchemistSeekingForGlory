@@ -19,13 +19,11 @@ public class Quest3 : MonoBehaviour
     {
         if (EndDialog == true)
         {
-            Time.timeScale = 1;
             Picked_Quest.Quest3 = true;
             Dialog1.SetActive(false);
         }
         if (End_Dialog == true)
         {
-            Time.timeScale = 1;
             Picked_Quest.Quest3 = false;
             Dialog1.SetActive(false);
         }
@@ -36,7 +34,6 @@ public class Quest3 : MonoBehaviour
         Debug.Log(col.gameObject.tag);
         if (col.gameObject.tag == "Player")
         {
-            Time.timeScale = 0;
             Debug.Log(Picked_Quest.end_Quest3);
             if (Picked_Quest.end_Quest3  == false)
             {
@@ -50,7 +47,7 @@ public class Quest3 : MonoBehaviour
                 if (InventoryAlter.spidPotion > 0)
                 {
 
-
+                    InventoryAlter.Coin += 10;
 
                     Picked_Quest.end_Quest3 = true;
 

@@ -7,6 +7,7 @@ public class InventoryAlter : MonoBehaviour
 {
 
     public int Coin;
+    public TextMeshProUGUI coinCount;
 
     public int gipnoGrib;
     public int muhomorApetitGrib;
@@ -63,6 +64,7 @@ public class InventoryAlter : MonoBehaviour
         DrawPoisonPotionUI();
         DrawSilaPotionUI();
         DrawSpidPotionUI();
+        DrawCoinUI();
     }
 
     // Update is called once per frame
@@ -221,6 +223,11 @@ public class InventoryAlter : MonoBehaviour
     public void DrawHillPotionUI()
     {
         hillPotionCount.text = spidPotion.ToString();
+    }
+
+    public void DrawCoinUI()
+    {
+        coinCount.text = Coin.ToString();
     }
 
 

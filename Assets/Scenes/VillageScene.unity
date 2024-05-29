@@ -46531,6 +46531,11 @@ PrefabInstance:
       objectReference: {fileID: 557753930}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
+      propertyPath: coinCount
+      value: 
+      objectReference: {fileID: 2088172290}
+    - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
       propertyPath: polanObject
       value: 
       objectReference: {fileID: 5789043827841342783, guid: 15d1fcd2cefdcc64db8286c3f503e6b6,
@@ -52598,6 +52603,11 @@ PrefabInstance:
       objectReference: {fileID: 2001882704}
     - target: {fileID: 4921889875343693551, guid: 74289b453a8fb484e86f4ef31b89f1f7,
         type: 3}
+      propertyPath: Text5
+      value: 
+      objectReference: {fileID: 2088172291}
+    - target: {fileID: 4921889875343693551, guid: 74289b453a8fb484e86f4ef31b89f1f7,
+        type: 3}
       propertyPath: Quest1
       value: 0
       objectReference: {fileID: 0}
@@ -56078,6 +56088,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2088172290 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6424540209422887329, guid: e85e977729891bc4eb0e191835d5aaac,
+    type: 3}
+  m_PrefabInstance: {fileID: 2088172274}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2088172291 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6822676099437664078, guid: e85e977729891bc4eb0e191835d5aaac,
+    type: 3}
+  m_PrefabInstance: {fileID: 2088172274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2088799088
 PrefabInstance:
   m_ObjectHideFlags: 0

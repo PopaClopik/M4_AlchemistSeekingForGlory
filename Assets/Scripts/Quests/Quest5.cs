@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Quest4 : MonoBehaviour
+public class Quest5 : MonoBehaviour
 {
     public bool EndDialog;
     public GameObject Dialog1;
@@ -10,28 +11,28 @@ public class Quest4 : MonoBehaviour
     public Picked_Quest Picked_Quest;
     public bool End_Dialog;
     public InventoryAlter InventoryAlter;
-    public NextClick4 NextClick4;
+    public NextClick5 NextClick5;
 
     public GameObject QuestSpenser4;
     public GameObject QuestSpenser5;
 
-    public static Quest4 instance;
+    public static Quest5 instance;
 
 
     void Start()
     {
-       
+
     }
     void Update()
     {
         if (EndDialog == true)
         {
-            Picked_Quest.Quest4 = true;
+            Picked_Quest.Quest5 = true;
             Dialog1.SetActive(false);
         }
         if (End_Dialog == true)
         {
-            Picked_Quest.Quest4 = false;
+            Picked_Quest.Quest5 = false;
             Dialog1.SetActive(false);
         }
 
@@ -41,35 +42,27 @@ public class Quest4 : MonoBehaviour
         Debug.Log(col.gameObject.tag);
         if (col.gameObject.tag == "Player")
         {
-            Debug.Log(Picked_Quest.end_Quest4);
-            if (Picked_Quest.end_Quest4 == false)
+            Debug.Log(Picked_Quest.end_Quest5);
+            if (Picked_Quest.end_Quest5 == false)
             {
                 Dialog1.SetActive(true);
-
             }
-            if (Picked_Quest.TextDone4 == true)
-
+            if (Picked_Quest.TextDone5 == true)
             {
                 Dialog1.SetActive(false);
-                if (InventoryAlter.unbornPotion > 0)
-                {
-
-                    InventoryAlter.Coin += 10;
-
-                    Picked_Quest.end_Quest4 = true;
-
-                    Dialog2.SetActive(true);
-                    InventoryAlter.unbornPotion -= 1;
-
-                    Picked_Quest.end_Quest5 = true;
-                    Picked_Quest.TextDone5 = true;
-                    QuestSpenser5.SetActive(true);
-                    QuestSpenser4.SetActive(false);
-                    
-
-                }
+                Dialog2.SetActive(true);
+                Invoke("DeactivateQuestSpenser5", 3f);
+                Invoke("LoadScene5", 3f); 
             }
-
         }
+    }
+
+    void DeactivateQuestSpenser5()
+    {
+        QuestSpenser5.SetActive(false);
+    }
+    void LoadScene5()
+    {
+        SceneManager.LoadScene(5); // Загрузка сцены с номером 5
     }
 }
