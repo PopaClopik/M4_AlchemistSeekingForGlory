@@ -8,6 +8,7 @@ public class InventoryAlter : MonoBehaviour
 
     public int Coin;
     public TextMeshProUGUI coinCount;
+    
 
     public int gipnoGrib;
     public int muhomorApetitGrib;
@@ -73,6 +74,7 @@ public class InventoryAlter : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             gipnoGribMetod();
+           
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
@@ -114,7 +116,9 @@ public class InventoryAlter : MonoBehaviour
             spawnedStone.transform.position = stoneSourceTransform.position;
             spawnedStone.GetComponent<Rigidbody>().AddForce(stoneSourceTransform.forward * 0);
             
-            gipnoGrib -= 1; 
+            gipnoGrib -= 1;
+         
+            
         }
     }
     private void muhomorApetitGribMetod()
@@ -126,6 +130,7 @@ public class InventoryAlter : MonoBehaviour
             spawnedStone.transform.position = stoneSourceTransform.position;
             spawnedStone.GetComponent<Rigidbody>().AddForce(stoneSourceTransform.forward * 0);
             muhomorApetitGrib -= 1;
+        
         }
     }
     private void pogankaObikGribMetod()
@@ -137,6 +142,7 @@ public class InventoryAlter : MonoBehaviour
             spawnedStone.transform.position = stoneSourceTransform.position;
             spawnedStone.GetComponent<Rigidbody>().AddForce(stoneSourceTransform.forward * 0);
             pogankaObikGrib -= 1;
+           
         }
     }
     private void fireGribMetod()
