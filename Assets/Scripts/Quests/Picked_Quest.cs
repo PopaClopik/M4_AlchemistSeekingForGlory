@@ -26,6 +26,12 @@ public class Picked_Quest : MonoBehaviour
     public bool end_Quest4;
     public bool TextDone4;
 
+
+    public bool Quest5;
+    public GameObject Text5;
+    public bool end_Quest5;
+    public bool TextDone5;
+
     public static Picked_Quest instance;
 
 
@@ -109,6 +115,25 @@ public class Picked_Quest : MonoBehaviour
         else
         {
             Text4.SetActive(false);
+        }
+        ///////////////////////////
+        ///
+        if(end_Quest1 == true && end_Quest2 == true && end_Quest3 == true && end_Quest4 == true && end_Quest5 == false)
+        {
+            if (Quest5 == true)
+            {
+                Text5.SetActive(true);
+                TextDone5 = true;
+            }
+            else
+            {
+                Text5.SetActive(false);
+            }
+
+        }
+        else
+        {
+            Text5.SetActive(false);
         }
     }
 
