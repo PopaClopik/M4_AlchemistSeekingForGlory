@@ -51,6 +51,8 @@ public class Quest2 : MonoBehaviour
 
 
                     InventoryAlter.Coin += 10;
+                    InventoryAlter.DrawCoinUI();
+
                     Picked_Quest.end_Quest2 = true;
 
                     Dialog2.SetActive(true);

@@ -55,6 +55,7 @@ public class Quest4 : MonoBehaviour
                 {
 
                     InventoryAlter.Coin += 10;
+                    InventoryAlter.DrawCoinUI();
 
                     Picked_Quest.end_Quest4 = true;
 
