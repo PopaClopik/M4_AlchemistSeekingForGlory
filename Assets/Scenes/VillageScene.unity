@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12781644, g: 0.13152051, b: 0.14200887, a: 1}
+  m_IndirectSpecularColor: {r: 0.1278162, g: 0.13152027, b: 0.14200881, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -15559,7 +15559,7 @@ PrefabInstance:
         type: 3}
       propertyPath: itemAmountTMP
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2088172277}
     - target: {fileID: 5179906526471149148, guid: 42af6335c5ef7534087474599d43f3f9,
         type: 3}
       propertyPath: takeOneFlower
@@ -15569,7 +15569,7 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1744243237}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42af6335c5ef7534087474599d43f3f9, type: 3}
 --- !u!1 &543352571 stripped
@@ -20491,7 +20491,7 @@ PrefabInstance:
         type: 3}
       propertyPath: itemAmountTMP
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2088172277}
     - target: {fileID: 5179906526471149148, guid: 42af6335c5ef7534087474599d43f3f9,
         type: 3}
       propertyPath: takeOneFlower
@@ -20501,7 +20501,7 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1744243237}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42af6335c5ef7534087474599d43f3f9, type: 3}
 --- !u!1001 &728078599
@@ -23391,7 +23391,7 @@ PrefabInstance:
         type: 3}
       propertyPath: itemAmountTMP
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2088172276}
     - target: {fileID: 481622430359716964, guid: 7d79a9eaafc6d13438ee08ad60fdbb6d,
         type: 3}
       propertyPath: takeOneFlower
@@ -23401,7 +23401,7 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1744243237}
     - target: {fileID: 4679135523068650005, guid: 7d79a9eaafc6d13438ee08ad60fdbb6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -30670,7 +30670,7 @@ PrefabInstance:
         type: 3}
       propertyPath: itemAmountTMP
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2088172278}
     - target: {fileID: 2134782588233988747, guid: 1eba30b1c9875b24c83fdd2623ade65b,
         type: 3}
       propertyPath: takeOneFlower
@@ -30680,7 +30680,7 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1744243237}
     - target: {fileID: 6350274171320907056, guid: 1eba30b1c9875b24c83fdd2623ade65b,
         type: 3}
       propertyPath: m_RootOrder
@@ -39472,7 +39472,7 @@ PrefabInstance:
         type: 3}
       propertyPath: itemAmountTMP
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2088172276}
     - target: {fileID: 481622430359716964, guid: 7d79a9eaafc6d13438ee08ad60fdbb6d,
         type: 3}
       propertyPath: takeOneFlower
@@ -39482,7 +39482,7 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1744243237}
     - target: {fileID: 4679135523068650005, guid: 7d79a9eaafc6d13438ee08ad60fdbb6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -49355,7 +49355,7 @@ PrefabInstance:
         type: 3}
       propertyPath: itemAmountTMP
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2088172278}
     - target: {fileID: 2134782588233988747, guid: 1eba30b1c9875b24c83fdd2623ade65b,
         type: 3}
       propertyPath: takeOneFlower
@@ -49365,7 +49365,7 @@ PrefabInstance:
         type: 3}
       propertyPath: InventoryAlter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1744243237}
     - target: {fileID: 6350274171320907056, guid: 1eba30b1c9875b24c83fdd2623ade65b,
         type: 3}
       propertyPath: m_RootOrder
@@ -55872,7 +55872,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &2088172276 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5021836984540291071, guid: e85e977729891bc4eb0e191835d5aaac,
+  m_CorrespondingSourceObject: {fileID: 2076481544031181221, guid: e85e977729891bc4eb0e191835d5aaac,
     type: 3}
   m_PrefabInstance: {fileID: 2088172274}
   m_PrefabAsset: {fileID: 0}
@@ -55884,7 +55884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &2088172277 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5130413641940358880, guid: e85e977729891bc4eb0e191835d5aaac,
+  m_CorrespondingSourceObject: {fileID: 209406486862697852, guid: e85e977729891bc4eb0e191835d5aaac,
     type: 3}
   m_PrefabInstance: {fileID: 2088172274}
   m_PrefabAsset: {fileID: 0}
@@ -55896,7 +55896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &2088172278 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6039645216779118361, guid: e85e977729891bc4eb0e191835d5aaac,
+  m_CorrespondingSourceObject: {fileID: 1595493762774008384, guid: e85e977729891bc4eb0e191835d5aaac,
     type: 3}
   m_PrefabInstance: {fileID: 2088172274}
   m_PrefabAsset: {fileID: 0}
@@ -55908,7 +55908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &2088172279 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 150762451645656530, guid: e85e977729891bc4eb0e191835d5aaac,
+  m_CorrespondingSourceObject: {fileID: 6423582099751636059, guid: e85e977729891bc4eb0e191835d5aaac,
     type: 3}
   m_PrefabInstance: {fileID: 2088172274}
   m_PrefabAsset: {fileID: 0}
@@ -55920,7 +55920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &2088172280 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 394150448003800482, guid: e85e977729891bc4eb0e191835d5aaac,
+  m_CorrespondingSourceObject: {fileID: 5652308061081791673, guid: e85e977729891bc4eb0e191835d5aaac,
     type: 3}
   m_PrefabInstance: {fileID: 2088172274}
   m_PrefabAsset: {fileID: 0}
@@ -55932,7 +55932,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &2088172281 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 37080982466694803, guid: e85e977729891bc4eb0e191835d5aaac,
+  m_CorrespondingSourceObject: {fileID: 5447438217162895371, guid: e85e977729891bc4eb0e191835d5aaac,
     type: 3}
   m_PrefabInstance: {fileID: 2088172274}
   m_PrefabAsset: {fileID: 0}
@@ -55944,7 +55944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &2088172282 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5731818946859851751, guid: e85e977729891bc4eb0e191835d5aaac,
+  m_CorrespondingSourceObject: {fileID: 4197038722676915533, guid: e85e977729891bc4eb0e191835d5aaac,
     type: 3}
   m_PrefabInstance: {fileID: 2088172274}
   m_PrefabAsset: {fileID: 0}
@@ -55956,7 +55956,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &2088172283 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5787590420190478882, guid: e85e977729891bc4eb0e191835d5aaac,
+  m_CorrespondingSourceObject: {fileID: 6719174706218672769, guid: e85e977729891bc4eb0e191835d5aaac,
     type: 3}
   m_PrefabInstance: {fileID: 2088172274}
   m_PrefabAsset: {fileID: 0}
