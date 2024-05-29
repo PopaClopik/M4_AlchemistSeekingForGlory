@@ -63,6 +63,6 @@ public class Quest5 : MonoBehaviour
     }
     void LoadScene5()
     {
-        SceneManager.LoadScene(5); // Загрузка сцены с номером 5
+        SceneManager.LoadScene(5); 
     }
 }

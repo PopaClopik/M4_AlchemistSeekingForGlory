@@ -1895,13 +1895,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 56496922}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.1, y: 3.547824, z: -15.17}
+  m_LocalRotation: {x: -0, y: 0.7054529, z: -0, w: 0.7087569}
+  m_LocalPosition: {x: 10.07, y: 0.598, z: -24.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 89.732, z: 0}
 --- !u!4 &58250002 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2309709346158774500, guid: 74dbf2d29910f7c4d9728d74bcc29c1c,
@@ -7740,7 +7740,7 @@ Transform:
   - {fileID: 1457261487}
   - {fileID: 206963261}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &267401163
 PrefabInstance:
@@ -22516,7 +22516,7 @@ Transform:
   - {fileID: 590372578}
   - {fileID: 2002480565}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &798180823
 PrefabInstance:
@@ -24325,6 +24325,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 284543153}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &866982506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 866982507}
+  m_Layer: 0
+  m_Name: PointTP3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &866982507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866982506}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.1, y: 0.598, z: 4.48}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &867637877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27839,7 +27869,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &981558246
 PrefabInstance:
@@ -29589,13 +29619,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045181545}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -398.83, y: 2.263, z: 1.08}
+  m_LocalRotation: {x: -0, y: 0.91192394, z: -0, w: 0.41035935}
+  m_LocalPosition: {x: -400.997, y: 0.514, z: 1.386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 131.54501, z: 0}
 --- !u!1001 &1045194843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34602,7 +34632,7 @@ Transform:
   - {fileID: 127845615}
   - {fileID: 990322152}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1254899389
 PrefabInstance:
@@ -46531,15 +46561,30 @@ PrefabInstance:
       objectReference: {fileID: 557753930}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
+      propertyPath: fireGrib
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
       propertyPath: coinCount
       value: 
       objectReference: {fileID: 2088172290}
+    - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
+      propertyPath: boyaresnic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
       propertyPath: polanObject
       value: 
       objectReference: {fileID: 5789043827841342783, guid: 15d1fcd2cefdcc64db8286c3f503e6b6,
         type: 3}
+    - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
+      propertyPath: strongestGrib
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
       propertyPath: borhevicObject
@@ -46565,6 +46610,11 @@ PrefabInstance:
       objectReference: {fileID: 2088172288}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
+      propertyPath: pogankaObikGrib
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
       propertyPath: silaPotionCount
       value: 
       objectReference: {fileID: 2088172289}
@@ -46579,6 +46629,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3729258421255688886, guid: c50a4ac4168726e4e8535b26793c3712,
         type: 3}
+    - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
+        type: 3}
+      propertyPath: muhomorApetitGrib
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3946689738910652053, guid: 90c76f732c8281c429b0ef27409a9676,
         type: 3}
       propertyPath: poisonPotionCount
@@ -53833,7 +53888,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2034562498}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -539.77, y: 4.87, z: -3.48}
+  m_LocalPosition: {x: -539.77, y: 3.348, z: -3.48}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -62740,7 +62795,7 @@ PrefabInstance:
     - target: {fileID: 9149625289901800853, guid: 55f340f8fedddc14688d6e0d09e17b0c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.27
+      value: 32.9
       objectReference: {fileID: 0}
     - target: {fileID: 9149625289901800853, guid: 55f340f8fedddc14688d6e0d09e17b0c,
         type: 3}

@@ -30,6 +30,7 @@ public class RoomButton : MonoBehaviour
         Debug.Log(other.gameObject.name);
         if (other.gameObject.name == "Player")
         {
+            other.gameObject.transform.rotation = pointTP.transform.rotation;
             other.gameObject.GetComponent<CharacterController>().enabled = false;
             other.gameObject.transform.position = pointTP.transform.position;
             Debug.Log("+1");
