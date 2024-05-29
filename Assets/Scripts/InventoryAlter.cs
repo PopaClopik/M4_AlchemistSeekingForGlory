@@ -34,6 +34,7 @@ public class InventoryAlter : MonoBehaviour
     public TextMeshProUGUI spidPotionCount;
 
     public static InventoryAlter instance;
+    public static ItemUp itemIP;
 
     public Transform stoneSourceTransform;
 
@@ -115,10 +116,8 @@ public class InventoryAlter : MonoBehaviour
             var spawnedStone = Instantiate(gipnoGribObgect);
             spawnedStone.transform.position = stoneSourceTransform.position;
             spawnedStone.GetComponent<Rigidbody>().AddForce(stoneSourceTransform.forward * 0);
-            
             gipnoGrib -= 1;
-         
-            
+            itemIP.DrawGipnoGribUI();
         }
     }
     private void muhomorApetitGribMetod()
