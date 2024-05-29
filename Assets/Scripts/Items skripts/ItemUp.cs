@@ -24,14 +24,14 @@ public class ItemUp : MonoBehaviour
 
     private void Start()
     {
-        DrawSilaGribUI();
-        DrawBorchevicUI();
-        DrawBoyarishnikUI();
-        DrawFireGribUI();
-        DrawGipnoGribUI();
-        DrawPogankaUI();
-        DrawMyhomorUI();
-        DrawPolinUI();
+        //DrawSilaGribUI();
+        //DrawBorchevicUI();
+        //DrawBoyarishnikUI();
+        //DrawFireGribUI();
+        //DrawGipnoGribUI();
+        //DrawPogankaUI();
+        //DrawMyhomorUI();
+        //DrawPolinUI();
 
 
     }
@@ -40,11 +40,11 @@ public class ItemUp : MonoBehaviour
         DrawBorchevicUI();
         DrawBoyarishnikUI();
         DrawFireGribUI();
-        DrawGipnoGribUI() ;
+        DrawGipnoGribUI();
         DrawMyhomorUI();
-        DrawPogankaUI() ;   
-        DrawPolinUI() ;
-        DrawSilaGribUI() ;
+        DrawPogankaUI();   
+        DrawPolinUI();
+        DrawSilaGribUI();
         if (InventoryAlter == null)
         {
             Debug.Log("Doneeee");
