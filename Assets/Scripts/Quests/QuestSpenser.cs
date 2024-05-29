@@ -56,7 +56,7 @@ public class QuestSpenser : MonoBehaviour
                 if (InventoryAlter.hillPotion > 0)
             {
 
-                    
+                    InventoryAlter.Coin += 10;
 
                     Debug.Log("Picked");
                 Picked_Quest.end_Quest1 = true;
