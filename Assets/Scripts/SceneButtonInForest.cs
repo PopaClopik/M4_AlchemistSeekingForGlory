@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SceneButton : MonoBehaviour
+public class SceneButtonInForest : MonoBehaviour
 {
     public GameObject pointTP;
 
     private void Start()
     {
-        pointTP = GameObject.Find("PointTP1");
+        pointTP = GameObject.Find("PointTP4");
     }
     public void Update()
     {
         if (pointTP == null)
         {
-            pointTP = GameObject.Find("PointTP1");
+            pointTP = GameObject.Find("PointTP4");
         }
     }
 
