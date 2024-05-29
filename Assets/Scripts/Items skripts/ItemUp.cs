@@ -32,16 +32,25 @@ public class ItemUp : MonoBehaviour
         DrawPogankaUI();
         DrawMyhomorUI();
         DrawPolinUI();
-        
-        
+
+
     }
     private void Update()
     {
+        DrawBorchevicUI();
+        DrawBoyarishnikUI();
+        DrawFireGribUI();
+        DrawGipnoGribUI() ;
+        DrawMyhomorUI();
+        DrawPogankaUI() ;   
+        DrawPolinUI() ;
+        DrawSilaGribUI() ;
         if (InventoryAlter == null)
         {
             Debug.Log("Doneeee");
             InventoryAlter = GameObject.Find("Inventory").GetComponent<InventoryAlter>();
         }
+    
     }
 
     private void OnTriggerStay(Collider other)
