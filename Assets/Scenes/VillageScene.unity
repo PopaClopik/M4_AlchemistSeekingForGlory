@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1278162, g: 0.13152027, b: 0.14200881, a: 1}
+  m_IndirectSpecularColor: {r: 0.12781647, g: 0.13152054, b: 0.14200911, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12208,18 +12208,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 975475572}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &417660270 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5819071284943324380, guid: 1084dff36a473aa4d9a3bf471ba6992a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1154215411}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d0212a53a7ac05499b4543a0acba446, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &419606505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32462,30 +32450,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 301978190012246101, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: m_text
+      value: Stones Shooting make off
+      objectReference: {fileID: 0}
     - target: {fileID: 1217503253101686113, guid: 1084dff36a473aa4d9a3bf471ba6992a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 417660270}
+      objectReference: {fileID: 2047160086}
     - target: {fileID: 1217503253101686113, guid: 1084dff36a473aa4d9a3bf471ba6992a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SoundEffectsToggle
+      value: StoneShootingToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2008359307246206276, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2008359307400095423, guid: 1084dff36a473aa4d9a3bf471ba6992a,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3401635943918125287, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: m_text
+      value: Stones Shooting make on
+      objectReference: {fileID: 0}
     - target: {fileID: 3876499147256905252, guid: 1084dff36a473aa4d9a3bf471ba6992a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 417660270}
+      objectReference: {fileID: 2047160086}
     - target: {fileID: 3876499147256905252, guid: 1084dff36a473aa4d9a3bf471ba6992a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SoundEffectsToggle
+      value: StoneShootingToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5069401126273893627, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5819071284159778985, guid: 1084dff36a473aa4d9a3bf471ba6992a,
         type: 3}
@@ -32497,6 +32505,16 @@ PrefabInstance:
       propertyPath: _stonesCaster
       value: 
       objectReference: {fileID: 1254222300}
+    - target: {fileID: 5819071284159779159, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: _stoneShootingOn
+      value: 
+      objectReference: {fileID: 1719513647}
+    - target: {fileID: 5819071284159779159, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: _stoneShootingOff
+      value: 
+      objectReference: {fileID: 47812397}
     - target: {fileID: 5819071284606269871, guid: 1084dff36a473aa4d9a3bf471ba6992a,
         type: 3}
       propertyPath: m_Volume
@@ -32581,6 +32599,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UImanager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6441305749869928008, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8993894253683932740, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1084dff36a473aa4d9a3bf471ba6992a, type: 3}
@@ -34521,7 +34549,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 2088172274}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557753930}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a8953cc98c8b43f468c8b18664ac4354, type: 3}
   m_Name: 
@@ -54045,6 +54073,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.293719, y: 6.07423, z: 6.4581013}
   m_Center: {x: -0.015371002, y: 3.001299, z: -0.6766042}
+--- !u!114 &2047160086 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5819071284159779159, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1154215411}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca7f4f3c5ae24843a12dcd591fc6523, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2050233114 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2153045368907206435, guid: 038de2b091f92fe45a4515485c0a1fe5,
@@ -55705,7 +55745,7 @@ PrefabInstance:
     - target: {fileID: 2759984376838143534, guid: e85e977729891bc4eb0e191835d5aaac,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2808280202446126285, guid: e85e977729891bc4eb0e191835d5aaac,
         type: 3}
