@@ -3561,7 +3561,7 @@ MonoBehaviour:
   - {fileID: 1739849267}
   - {fileID: 604117504}
   - {fileID: 145789331}
-  enemiesMaxCount: 6
+  enemiesMaxCount: 5
   delay: 5
 --- !u!4 &1107687892
 Transform:
@@ -4633,6 +4633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e576b9c1d455634aab7304522b6b787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointTP: {fileID: 0}
 --- !u!1001 &1346179120
 PrefabInstance:
   m_ObjectHideFlags: 0

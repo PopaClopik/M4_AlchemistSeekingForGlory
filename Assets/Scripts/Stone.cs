@@ -27,7 +27,7 @@ public class Stone : MonoBehaviour
          
         //if (GetComponent<SoundToggleInPause>()._soundVolume == true)
         {
-            Debug.Log("SoundWorks");
+            //Debug.Log("SoundWorks");
             PebbleCollision.Play();
         }
     }

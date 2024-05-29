@@ -25,7 +25,7 @@ public class EnemySpawner : MonoBehaviour
 
     private void Update()
     {
-        CheckForDeadEnemies();        
+        CheckForDeadEnemies();
         CreateEnemy();
     }
 

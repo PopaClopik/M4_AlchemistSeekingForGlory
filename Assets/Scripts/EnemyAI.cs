@@ -25,30 +25,54 @@ public class EnemyAI : MonoBehaviour
     {
         InitComponentLinks();
         PickNewPatrolPoint();
-        Debug.Log("nine");
         player = GameObject.Find("Player").GetComponent<PlayerController>();
     }
+
     private void InitComponentLinks()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
         _playerHealth = player.GetComponent<PlayerHealth>();
         _enemyHealth = GetComponent<EnemyHealth>();
+
+        if (_navMeshAgent == null)
+        {
+            Debug.LogError("NavMeshAgent component is missing.");
+            return;
+        }
+
+        // Принудительное размещение агента на NavMesh
+        NavMeshHit hit;
+        if (NavMesh.SamplePosition(transform.position, out hit, 1.0f, NavMesh.AllAreas))
+        {
+            _navMeshAgent.Warp(hit.position);
+            Debug.Log("NavMeshAgent is placed on NavMesh.");
+        }
+        else
+        {
+            Debug.LogError("NavMeshAgent is not on a NavMesh.");
+        }
     }
+
     private void Update()
     {
-        NoticePlayerUpdate();
-        ChaseUpdate();
-        AttackUpdate();
-        PatrolUpdate();
-       
-    
-
+        if (_navMeshAgent != null && _navMeshAgent.isOnNavMesh)
+        {
+            NoticePlayerUpdate();
+            ChaseUpdate();
+            AttackUpdate();
+            PatrolUpdate();
+        }
+        else
+        {
+            Debug.LogWarning("NavMeshAgent is either null or not on NavMesh.");
+        }
     }
+
     private void AttackUpdate()
     {
         if (_isPlayerNoticed)
         {
-            if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
+            if (_navMeshAgent != null && _navMeshAgent.isOnNavMesh && _navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
             {
                 animator.SetTrigger("Attack");
             }
@@ -58,9 +82,10 @@ public class EnemyAI : MonoBehaviour
     public void AttackDamage()
     {
         if (!_isPlayerNoticed) return;
-        if (_navMeshAgent.remainingDistance > (_navMeshAgent.stoppingDistance + attackDistance)) return;
-
-        _playerHealth.DealDamage(damage);
+        if (_navMeshAgent != null && _navMeshAgent.isOnNavMesh && _navMeshAgent.remainingDistance <= (_navMeshAgent.stoppingDistance + attackDistance))
+        {
+            _playerHealth.DealDamage(damage);
+        }
     }
 
     private void NoticePlayerUpdate()
@@ -72,11 +97,10 @@ public class EnemyAI : MonoBehaviour
         if (Vector3.Angle(transform.forward, direction) < viewAngle)
         {
             RaycastHit hit;
-            if (Physics.Raycast(transform.position + new Vector3(0, (float) 0.8, (float) 0.6), direction, out hit))
+            if (Physics.Raycast(transform.position + new Vector3(0, 0.8f, 0.6f), direction, out hit))
             {
                 if (hit.collider.gameObject == player.gameObject)
                 {
-
                     _isPlayerNoticed = true;
                 }
             }
@@ -87,23 +111,31 @@ public class EnemyAI : MonoBehaviour
     {
         if (!_isPlayerNoticed)
         {
-            if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
+            if (_navMeshAgent != null && _navMeshAgent.isOnNavMesh && _navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
             {
                 PickNewPatrolPoint();
             }
         }
     }
+
     private void PickNewPatrolPoint()
     {
-        _navMeshAgent.destination = patrolPoints[Random.Range(0, patrolPoints.Count)].position;
+        if (_navMeshAgent != null && _navMeshAgent.isOnNavMesh)
+        {
+            _navMeshAgent.destination = patrolPoints[Random.Range(0, patrolPoints.Count)].position;
+        }
     }
+
     private void ChaseUpdate()
     {
         if (_isPlayerNoticed)
         {
-            _navMeshAgent.destination = player.transform.position;
+            if (_navMeshAgent != null && _navMeshAgent.isOnNavMesh)
+            {
+                _navMeshAgent.destination = player.transform.position;
+            }
         }
     }
-
-    
 }
+
+
