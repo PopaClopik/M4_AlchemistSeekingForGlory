@@ -30,6 +30,7 @@ public class CraftingScript : MonoBehaviour
             a = 0;
             b = 0;
             Debug.Log("potion+1");
+            InventoryAlter.DrawHipnosisPotionUI();
         }
         if (a == 5 && b == 8)
         {
@@ -37,6 +38,7 @@ public class CraftingScript : MonoBehaviour
             a = 0;
             b = 0;
             Debug.Log("potion+1");
+            InventoryAlter.DrawSilaPotionUI();
         }
         if (a == 6 && b == 3)
         {
@@ -44,6 +46,7 @@ public class CraftingScript : MonoBehaviour
             a = 0;
             b = 0;
             Debug.Log("potion+1");
+            InventoryAlter.DrawPoisonPotionUI();
         }
         if (a == 6 && b == 4)
         {
@@ -51,6 +54,7 @@ public class CraftingScript : MonoBehaviour
             a = 0;
             b = 0;
             Debug.Log("potion+1");
+            InventoryAlter.DrawFirePotionUI();
         }
         if (a == 7 && b == 3)
         {
@@ -58,6 +62,7 @@ public class CraftingScript : MonoBehaviour
             a = 0;
             b = 0;
             Debug.Log("potion+1");
+            InventoryAlter.DrawSpidPotionUI();
         }
     }
    
