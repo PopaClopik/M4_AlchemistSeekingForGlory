@@ -17,7 +17,7 @@ public class Quest5 : MonoBehaviour
     public GameObject QuestSpenser5;
 
     public static Quest5 instance;
-
+    public DoNotDestroi notDestroi;
 
     void Start()
     {
@@ -63,6 +63,9 @@ public class Quest5 : MonoBehaviour
     }
     void LoadScene5()
     {
+        notDestroi.enabled = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         SceneManager.LoadScene(5); 
     }
 }

@@ -58386,6 +58386,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2088172292}
     - target: {fileID: 340367218, guid: 2236c0a3b71d1ad4799d915d44ef540a, type: 3}
+      propertyPath: notDestroi
+      value: 
+      objectReference: {fileID: 190967102}
+    - target: {fileID: 340367218, guid: 2236c0a3b71d1ad4799d915d44ef540a, type: 3}
       propertyPath: Picked_Quest
       value: 
       objectReference: {fileID: 1975995433}
