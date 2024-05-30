@@ -60,7 +60,7 @@ public class Quest4 : MonoBehaviour
 
                     Dialog2.SetActive(true);
                     InventoryAlter.unbornPotion -= 1;
-
+                    InventoryAlter.DrawFirePotionUI();
                     Picked_Quest.end_Quest5 = true;
                     Picked_Quest.TextDone5 = true;
                     QuestSpenser5.SetActive(true);

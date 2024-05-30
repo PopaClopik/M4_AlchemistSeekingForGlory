@@ -58,13 +58,14 @@ public class QuestSpenser : MonoBehaviour
 
                     InventoryAlter.Coin += 10;
                     InventoryAlter.DrawCoinUI();
-
+                    
                     Debug.Log("Picked");
                 Picked_Quest.end_Quest1 = true;
 
                 Dialog2.SetActive(true);
                 Debug.Log("Dialog2 activated");
                 InventoryAlter.hillPotion -= 1;
+                InventoryAlter.DrawHillPotionUI();
                 QuestSpenser22.SetActive(true);
                 QuestSpenser11.SetActive(false);
                 

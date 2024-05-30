@@ -16,12 +16,13 @@ public class CraftingScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (a == 7 && b ==3)
+        if (a == 7 && b ==5)
         {
             InventoryAlter.hillPotion += 1;
             a = 0;
             b = 0;
             Debug.Log("potion+1");
+            InventoryAlter.DrawHillPotionUI();
         }
         if (a == 1 && b == 8)
         {
@@ -98,7 +99,12 @@ public class CraftingScript : MonoBehaviour
             b = 4;
             Destroy(other.gameObject);
         }
-        
+        if (other.gameObject.name == "MyhomorMush(Clone)")
+        {
+            b = 5;
+            Destroy(other.gameObject);
+        }
+
 
 
 

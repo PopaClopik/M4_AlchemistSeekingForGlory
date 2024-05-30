@@ -53,7 +53,7 @@ public class Quest3 : MonoBehaviour
 
                     Dialog2.SetActive(true);
                     InventoryAlter.spidPotion -= 1;
-
+                    InventoryAlter.DrawSpidPotionUI();
                     QuestSpenser4.SetActive(true);
                     QuestSpenser3.SetActive(false);
 

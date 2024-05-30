@@ -56,7 +56,7 @@ public class Quest2 : MonoBehaviour
 
                     Dialog2.SetActive(true);
                     InventoryAlter.strongestPotion -= 1;
-
+                    InventoryAlter.DrawSilaPotionUI();
                     QuestSpenser3.SetActive(true);
                     QuestSpenser22.SetActive(false);
                 }

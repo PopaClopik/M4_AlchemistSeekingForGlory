@@ -60,13 +60,7 @@ public class InventoryAlter : MonoBehaviour
             instance = this;
         }
 
-        DrawFirePotionUI();
-        DrawHillPotionUI();
-        DrawHipnosisPotionUI();
-        DrawPoisonPotionUI();
-        DrawSilaPotionUI();
-        DrawSpidPotionUI();
-        DrawCoinUI();
+        
     }
 
     // Update is called once per frame
@@ -207,7 +201,7 @@ public class InventoryAlter : MonoBehaviour
 
     public void DrawSpidPotionUI()
     {
-        spidPotionCount.text = hillPotion.ToString();
+        spidPotionCount.text = spidPotion.ToString();
     }
 
     public void DrawFirePotionUI()
@@ -227,7 +221,8 @@ public class InventoryAlter : MonoBehaviour
 
     public void DrawHillPotionUI()
     {
-        hillPotionCount.text = spidPotion.ToString();
+        hillPotionCount.text = hillPotion.ToString();
+        Debug.Log("ПРивевт");
     }
 
     public void DrawCoinUI()
