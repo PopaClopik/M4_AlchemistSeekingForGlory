@@ -33,8 +33,16 @@ public class InventoryAlter : MonoBehaviour
     public int spidPotion;
     public TextMeshProUGUI spidPotionCount;
 
+    public TextMeshProUGUI gipnoGribCount;
+    public TextMeshProUGUI muhomorGribCount;
+    public TextMeshProUGUI pogankaGribCount;
+    public TextMeshProUGUI fireGribCount;
+    public TextMeshProUGUI strongestGribCount;
+    public TextMeshProUGUI polanCount;
+    public TextMeshProUGUI boyarCount;
+    public TextMeshProUGUI borheCount;
+
     public static InventoryAlter instance;
-    public static ItemUp itemIP;
 
     public Transform stoneSourceTransform;
 
@@ -48,6 +56,38 @@ public class InventoryAlter : MonoBehaviour
     public GameObject boyaresnicObject;
     public GameObject borhevicObject;
 
+    public void DrawGipnoUI()
+    {
+        gipnoGribCount.text = gipnoGrib.ToString();
+    }
+    public void DrawMuhomorUI()
+    {
+        muhomorGribCount.text = muhomorApetitGrib.ToString();
+    }
+    public void DrawPogankaUI()
+    {
+        pogankaGribCount.text = pogankaObikGrib.ToString();
+    }
+    public void DrawFireUI()
+    {
+        fireGribCount.text = fireGrib.ToString();
+    }
+    public void DrawStrongetUI()
+    {
+        silaPotionCount.text = strongestGrib.ToString();
+    }
+    public void DrawPolanUI()
+    {
+        polanCount.text = polan.ToString();
+    }
+    public void DrawBoyarUI()
+    {
+        boyarCount.text = boyaresnic.ToString();
+    }
+    public void DrawBorhevUI()
+    {
+        borheCount.text = borhevic.ToString();
+    }
     void Start()
     {
         DontDestroyOnLoad(gameObject);
@@ -111,7 +151,7 @@ public class InventoryAlter : MonoBehaviour
             spawnedStone.transform.position = stoneSourceTransform.position;
             spawnedStone.GetComponent<Rigidbody>().AddForce(stoneSourceTransform.forward * 0);
             gipnoGrib -= 1;
-            itemIP.DrawGipnoGribUI();
+            DrawGipnoUI();
         }
     }
     private void muhomorApetitGribMetod()
@@ -123,7 +163,7 @@ public class InventoryAlter : MonoBehaviour
             spawnedStone.transform.position = stoneSourceTransform.position;
             spawnedStone.GetComponent<Rigidbody>().AddForce(stoneSourceTransform.forward * 0);
             muhomorApetitGrib -= 1;
-        
+           DrawMuhomorUI();
         }
     }
     private void pogankaObikGribMetod()
@@ -135,7 +175,7 @@ public class InventoryAlter : MonoBehaviour
             spawnedStone.transform.position = stoneSourceTransform.position;
             spawnedStone.GetComponent<Rigidbody>().AddForce(stoneSourceTransform.forward * 0);
             pogankaObikGrib -= 1;
-           
+           DrawPogankaUI();
         }
     }
     private void fireGribMetod()
@@ -147,6 +187,7 @@ public class InventoryAlter : MonoBehaviour
             spawnedStone.transform.position = stoneSourceTransform.position;
             spawnedStone.GetComponent<Rigidbody>().AddForce(stoneSourceTransform.forward * 0);
             fireGrib -= 1;
+            DrawFireUI();
         }
     }
     private void strongestGribMetod()
@@ -158,6 +199,7 @@ public class InventoryAlter : MonoBehaviour
             spawnedStone.transform.position = stoneSourceTransform.position;
             spawnedStone.GetComponent<Rigidbody>().AddForce(stoneSourceTransform.forward * 0);
             strongestGrib -= 1;
+            DrawStrongetUI();
         }
     }
     private void polanMetod()
@@ -169,6 +211,7 @@ public class InventoryAlter : MonoBehaviour
             spawnedStone.transform.position = stoneSourceTransform.position;
             spawnedStone.GetComponent<Rigidbody>().AddForce(stoneSourceTransform.forward * 0);
             polan -= 1;
+            DrawPolanUI();  
         }
     }
     private void boyaresnicMetod()
@@ -180,6 +223,7 @@ public class InventoryAlter : MonoBehaviour
             spawnedStone.transform.position = stoneSourceTransform.position;
             spawnedStone.GetComponent<Rigidbody>().AddForce(stoneSourceTransform.forward * 0);
             boyaresnic -= 1;
+            DrawBoyarUI();
         }
     }
     private void borhevicMetod()
@@ -191,6 +235,7 @@ public class InventoryAlter : MonoBehaviour
             spawnedStone.transform.position = stoneSourceTransform.position;
             spawnedStone.GetComponent<Rigidbody>().AddForce(stoneSourceTransform.forward * 0);
             borhevic -= 1;
+            DrawBorhevUI();
         }
     }
 
