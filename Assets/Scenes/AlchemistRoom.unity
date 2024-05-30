@@ -3219,7 +3219,7 @@ RectTransform:
   m_GameObject: {fileID: 401702677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.23, y: 2.1, z: 1}
+  m_LocalScale: {x: 2.23, y: 2.25, z: 1}
   m_Children:
   - {fileID: 475147605}
   - {fileID: 1412064749}
@@ -5086,7 +5086,7 @@ RectTransform:
   m_GameObject: {fileID: 556139172}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.23, y: 2.1, z: 1}
+  m_LocalScale: {x: 2.23, y: 2.25, z: 1}
   m_Children:
   - {fileID: 379200522}
   - {fileID: 605845747}
@@ -6390,7 +6390,7 @@ RectTransform:
   m_GameObject: {fileID: 726956386}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.23, y: 2.1, z: 1}
+  m_LocalScale: {x: 2.23, y: 2.25, z: 1}
   m_Children:
   - {fileID: 2042826954}
   - {fileID: 836078654}
@@ -10604,7 +10604,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1269503423
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10614,7 +10614,7 @@ RectTransform:
   m_GameObject: {fileID: 1269503422}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.23, y: 2.1, z: 1}
+  m_LocalScale: {x: 2.23, y: 2.25, z: 1}
   m_Children:
   - {fileID: 750978369}
   - {fileID: 1880767223}
@@ -11881,7 +11881,7 @@ RectTransform:
   m_GameObject: {fileID: 1460090678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.23, y: 2.1, z: 1}
+  m_LocalScale: {x: 2.23, y: 2.25, z: 1}
   m_Children:
   - {fileID: 1547489090}
   - {fileID: 1345719183}
@@ -17839,7 +17839,7 @@ RectTransform:
   m_GameObject: {fileID: 2063420030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.23, y: 2.1, z: 1}
+  m_LocalScale: {x: 2.23, y: 2.25, z: 1}
   m_Children:
   - {fileID: 1610246048}
   - {fileID: 209486937}
