@@ -16,8 +16,12 @@ public class PerehodForest : MonoBehaviour
         {
             other.gameObject.GetComponent<CharacterController>().enabled = false;
             other.gameObject.transform.rotation = pointTP.transform.rotation;
-            Clue.SetActive(true);
-            Invoke("DeleteClue", 7);
+            if (Clue != null)
+            {
+                Clue.SetActive(true);
+                Invoke("DeleteClue", 7);
+            }
+            
             other.gameObject.transform.position = pointTP.transform.position;
             //Debug.Log("+1");
             other.gameObject.GetComponent<CharacterController>().enabled = true;
@@ -26,7 +30,7 @@ public class PerehodForest : MonoBehaviour
 
     void DeleteClue()
     {
-        Clue.SetActive(false);
+        Object.Destroy(Clue);
     }
    
 }

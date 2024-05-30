@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LevelButton : MonoBehaviour, IInteractable
+public class RoomButton : MonoBehaviour, IInteractable
 {
 
     public bool isOn;
