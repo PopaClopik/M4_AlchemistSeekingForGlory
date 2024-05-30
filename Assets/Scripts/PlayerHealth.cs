@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PlayerHealth : MonoBehaviour
     public GameObject gameplayUI;
     public GameObject gameOverScreen;
     public Animator animator;
+    public GameObject Uimanager;
 
     private float _maxValue;
 
@@ -19,6 +21,13 @@ public class PlayerHealth : MonoBehaviour
         DrawHealthBar();
     }
 
+    private void Update()
+    {
+        if (value <= 0)
+        {
+            ReloadOnEscape();
+        }
+    }
     public bool IsAlive()
     {
         return value > 0;
@@ -44,6 +53,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void PlayerIsDead()
     {
+        Uimanager.SetActive(false);
         gameplayUI.SetActive(false);
         gameOverScreen.SetActive(true);
         GetComponent<PlayerController>().enabled = false;
@@ -56,5 +66,12 @@ public class PlayerHealth : MonoBehaviour
     {
         valueRectTransform.anchorMax = new Vector2(value / _maxValue, 1);
     }
-    
+
+    private void ReloadOnEscape()
+    {
+        if(Input.GetKeyUp(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("VillageScene");
+        }
+    }
 }

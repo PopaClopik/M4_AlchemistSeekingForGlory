@@ -9834,6 +9834,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7bd2e3a599a8b34a836be9cfa9d617e, type: 3}
+--- !u!1 &327834561 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5819071285276029172, guid: 1084dff36a473aa4d9a3bf471ba6992a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1154215411}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &328092315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57527,6 +57533,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2903101513743423498, guid: e85e977729891bc4eb0e191835d5aaac,
+        type: 3}
+      propertyPath: Uimanager
+      value: 
+      objectReference: {fileID: 327834561}
     - target: {fileID: 2935573187504300617, guid: e85e977729891bc4eb0e191835d5aaac,
         type: 3}
       propertyPath: quest2
